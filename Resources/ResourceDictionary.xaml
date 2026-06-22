@@ -1,0 +1,1132 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <SolidColorBrush x:Key="CustomBackgroundDarkBlue_Colour" Color="#FF395588" />
+    <SolidColorBrush x:Key="CustomBackgroundLightBlue_SolidColour" Color="#FF87CEFA" />
+    <SolidColorBrush x:Key="CustomBackgroundVeryLightBlue_Colour" Color="#FFA0DBFA" />
+    <SolidColorBrush x:Key="CustomBackgroundGrey_Colour" Color="#D0505050" />
+    <SolidColorBrush x:Key="CustomDataGrid_Colour" Color="#FFC0FBFA" />
+    <SolidColorBrush x:Key="CustomDataGrid_IsHoverColour" Color="#FFD0FCFB" />
+    <SolidColorBrush x:Key="CustomDataGridHeader_Colour" Color="#FF6495ED" />
+    <SolidColorBrush x:Key="CustomForegroundDarkBlue_Colour" Color="#FF000080" />
+    <SolidColorBrush x:Key="CustomBorderDarkBlue_Colour" Color="#80000080" />
+    <SolidColorBrush x:Key="CustomButtonBlue_IsPressedColour" Color="#FF5080B6" />
+    <SolidColorBrush x:Key="CustomPolygonWhite_Colour" Color="#FFCCCCCC" />
+
+    <LinearGradientBrush x:Key="CustomButtonBlue_Colour" StartPoint=".5,0" EndPoint=".5,1">
+        <GradientStop Color="#FFB4E5FD" Offset="0" />
+        <GradientStop Color="#FF6495ED" Offset="1" />
+    </LinearGradientBrush>
+    <RadialGradientBrush x:Key="CustomBackgroundLightBlue_Colour" GradientOrigin=".5,.5" Center=".5,.5" RadiusX=".5" RadiusY=".5">
+        <GradientStop Color="#FFA7EEFA" Offset="0" />
+        <GradientStop Color="#FF87CEFA" Offset="1" />
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="CustomProgressBar_InnerColour" GradientOrigin=".5,.5" Center=".2,.2" RadiusX="2" RadiusY="1">
+        <GradientStop Color="#8844DD44" Offset="0.2" />
+        <GradientStop Color="#8800AA00" Offset="1" />
+    </RadialGradientBrush>
+    <RadialGradientBrush x:Key="CustomProgressBar_OuterColour" GradientOrigin=".5,.5" Center=".2,.2" RadiusX="2" RadiusY="1">
+        <GradientStop Color="#FFBBBBBB" Offset="0.2" />
+        <GradientStop Color="#FF666666" Offset="1" />
+    </RadialGradientBrush>
+
+    <RadialGradientBrush x:Key="CustomBackgroundLightBlue_MiddleFillingColour" GradientOrigin=".5,.25" Center=".5,.25" RadiusX=".5" RadiusY=".75">
+        <GradientStop Color="#FFA7EEFA" Offset="0" />
+        <GradientStop Color="#FF87CEFA" Offset="1" />
+    </RadialGradientBrush>
+
+    <LinearGradientBrush x:Key="NormalBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#8CF" Offset="0.0"/>
+                <GradientStop Color="#37E" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="NormalBrush2" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#AEF" Offset="0.0"/>
+                <GradientStop Color="#59E" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="NormalBrush3" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#6AB" Offset="0.0"/>
+                <GradientStop Color="#15A" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="HorizontalNormalBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#8CF" Offset="0.0"/>
+                <GradientStop Color="#37E" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+    <LinearGradientBrush x:Key="HorizontalNormalBrush2" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#AEF" Offset="0.0"/>
+                <GradientStop Color="#59E" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="LightBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#FFF" Offset="0.0"/>
+                <GradientStop Color="#EEE" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="HorizontalLightBrush" StartPoint="0,0" EndPoint="1,0">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#FFF" Offset="0.0"/>
+                <GradientStop Color="#EEE" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="DarkBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#FFF" Offset="0.0"/>
+                <GradientStop Color="#AAA" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="PressedBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#BBB" Offset="0.0"/>
+                <GradientStop Color="#EEE" Offset="0.1"/>
+                <GradientStop Color="#EEE" Offset="0.9"/>
+                <GradientStop Color="#FFF" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="DisabledForegroundBrush" Color="#888" />
+
+    <SolidColorBrush x:Key="DisabledBackgroundBrush" Color="#EEE" />
+
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="#FFF" />
+
+    <SolidColorBrush x:Key="SelectedBackgroundBrush" Color="#DDD" />
+
+    <LinearGradientBrush x:Key="NormalBorderBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#444" Offset="0.0"/>
+                <GradientStop Color="#444" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="HorizontalNormalBorderBrush" StartPoint="0,0" EndPoint="1,0">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#444" Offset="0.0"/>
+                <GradientStop Color="#444" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="DefaultedBorderBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#777" Offset="0.0"/>
+                <GradientStop Color="#000" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="PressedBorderBrush" StartPoint="0,0" EndPoint="0,1">
+        <GradientBrush.GradientStops>
+            <GradientStopCollection>
+                <GradientStop Color="#444" Offset="0.0"/>
+                <GradientStop Color="#888" Offset="1.0"/>
+            </GradientStopCollection>
+        </GradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <SolidColorBrush x:Key="DisabledBorderBrush" Color="#AAA" />
+
+    <SolidColorBrush x:Key="SolidBorderBrush" Color="#888" />
+
+    <SolidColorBrush x:Key="LightBorderBrush" Color="#AAA" />
+
+    <SolidColorBrush x:Key="GlyphBrush" Color="#00F" />
+    <SolidColorBrush x:Key="GlyphBrush2" Color="#08F" />
+    <SolidColorBrush x:Key="GlyphBrush3" Color="#00B" />
+
+    <SolidColorBrush x:Key="LightColorBrush" Color="#DDD" />
+
+
+    <Style x:Key="ScrollBarLineButton" TargetType="{x:Type RepeatButton}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="True" />
+        <Setter Property="Focusable" Value="False" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Border Name="Border" Margin="1,1,0,0" CornerRadius="0" BorderBrush="{StaticResource NormalBorderBrush}" BorderThickness="0" Height="12">
+                        <Path HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="#FF333333" Fill="{StaticResource NormalBrush}" Data="{Binding Path=Content,RelativeSource={RelativeSource TemplatedParent}}" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsPressed" Value="true">
+                            <Setter TargetName="Border" Property="Background" Value="{StaticResource PressedBrush}" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="true">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type RepeatButton}">
+                            <Border Name="Border" Margin="1,1,0,0" CornerRadius="0" BorderBrush="{StaticResource NormalBorderBrush}" BorderThickness="0" Height="12">
+                                <Path HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="Gray" Fill="{StaticResource NormalBrush2}" Data="{Binding Path=Content,RelativeSource={RelativeSource TemplatedParent}}" />
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="true">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type RepeatButton}">
+                            <Border Name="Border" Margin="1,1,0,0" CornerRadius="0" BorderBrush="{StaticResource NormalBorderBrush}" BorderThickness="0" Height="12">
+                                <Path HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="Black" Fill="{StaticResource NormalBrush3}" Data="{Binding Path=Content,RelativeSource={RelativeSource TemplatedParent}}" />
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="false">
+                <Setter Property="Foreground" Value="{StaticResource DisabledForegroundBrush}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="ScrollBarPageButton_Upper" TargetType="{x:Type RepeatButton}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Border BorderThickness="1,1,1,0" BorderBrush="#FF000088" Background="#FFC0FBFA" CornerRadius="3,3,0,0" Width="13" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="ScrollBarPageButton_Lower" TargetType="{x:Type RepeatButton}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Border BorderThickness="1,0,1,1" BorderBrush="#FF000088" Background="#FFC0FBFA" CornerRadius="0,0,3,3" Width="13" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="ScrollBarPageButton_Left" TargetType="{x:Type RepeatButton}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Border BorderThickness="1,1,0,1" BorderBrush="#FF000088" Background="#FFC0FBFA" CornerRadius="3,0,0,3" Height="13" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="ScrollBarPageButton_Right" TargetType="{x:Type RepeatButton}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RepeatButton}">
+                    <Border BorderThickness="0,1,1,1" BorderBrush="#FF000088" Background="#FFC0FBFA" CornerRadius="0,3,3,0" Height="13" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ScrollBarThumb" TargetType="{x:Type Thumb}">
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="IsTabStop" Value="false" />
+        <Setter Property="Focusable" Value="false" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Thumb}">
+                    <Border CornerRadius="0" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" />
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <ControlTemplate x:Key="VerticalScrollBar" TargetType="{x:Type ScrollBar}">
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition MaxHeight="13" />
+                <RowDefinition Height="0.00001*" />
+                <RowDefinition MaxHeight="13" />
+            </Grid.RowDefinitions>
+            <Border Grid.RowSpan="3" CornerRadius="0" Background="Transparent" />
+            <RepeatButton Grid.Row="0" Style="{StaticResource ScrollBarLineButton}" Height="13" Command="ScrollBar.LineUpCommand" Content="M 1 7 L 11 7 L 6 0 Z" Delay="150" Interval="150" />
+            <Track Name="PART_Track" Grid.Row="1" IsDirectionReversed="true">
+                <Track.Resources>
+                    <system:Double
+                    x:Key="{x:Static SystemParameters.VerticalScrollBarButtonHeightKey}">
+                        116
+                    </system:Double>
+                </Track.Resources>
+                <Track.DecreaseRepeatButton>
+                    <RepeatButton Style="{StaticResource ScrollBarPageButton_Upper}" Command="ScrollBar.PageUpCommand" Delay="600000" Interval="600000" />
+                </Track.DecreaseRepeatButton>
+                <Track.Thumb>
+                    <Thumb Margin="1,0,1,0" BorderBrush="{StaticResource HorizontalNormalBorderBrush}" >
+                        <Thumb.Style>
+                            <Style TargetType="Thumb" BasedOn="{StaticResource ScrollBarThumb}">
+                                <Setter Property="Background" Value="{StaticResource HorizontalNormalBrush}" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="{StaticResource HorizontalNormalBrush2}" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Thumb.Style>
+                    </Thumb>
+                </Track.Thumb>
+                <Track.IncreaseRepeatButton>
+                    <RepeatButton Style="{StaticResource ScrollBarPageButton_Lower}" Command="ScrollBar.PageDownCommand" Delay="600000" Interval="600000" />
+                </Track.IncreaseRepeatButton>
+            </Track>
+            <RepeatButton Grid.Row="3" Style="{StaticResource ScrollBarLineButton}" Height="13" Command="ScrollBar.LineDownCommand" Content="M 1 0 L 6 7 L 11 0 Z" Delay="150" Interval="150" />
+        </Grid>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="HorizontalScrollBar" TargetType="{x:Type ScrollBar}">
+        <Grid >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MaxWidth="13" />
+                <ColumnDefinition Width="0.00001*" />
+                <ColumnDefinition MaxWidth="13" />
+            </Grid.ColumnDefinitions>
+            <Border Grid.ColumnSpan="3" CornerRadius="0" Background="Transparent" />
+            <RepeatButton Grid.Column="0" Style="{StaticResource ScrollBarLineButton}" Width="13" Command="ScrollBar.LineLeftCommand" Content="M 7 1 L 7 11 L 0 6 Z" Delay="500" Interval="10" />
+            <Track Name="PART_Track" Grid.Column="1" IsDirectionReversed="False">
+                <Track.Resources>
+                    <system:Double
+                    x:Key="{x:Static SystemParameters.HorizontalScrollBarButtonWidthKey}">
+                        116
+                    </system:Double>
+                </Track.Resources>
+                <Track.DecreaseRepeatButton>
+                    <RepeatButton Style="{StaticResource ScrollBarPageButton_Left}" Command="ScrollBar.PageLeftCommand" Delay="600000" Interval="600000" />
+                </Track.DecreaseRepeatButton>
+                <Track.Thumb>
+                    <Thumb Margin="0,1,0,1" BorderBrush="{StaticResource NormalBorderBrush}">
+                        <Thumb.Style>
+                            <Style TargetType="Thumb" BasedOn="{StaticResource ScrollBarThumb}">
+                                <Setter Property="Background" Value="{StaticResource NormalBrush}" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="{StaticResource NormalBrush2}" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Thumb.Style>
+                    </Thumb>
+                </Track.Thumb>
+                <Track.IncreaseRepeatButton>
+                    <RepeatButton Style="{StaticResource ScrollBarPageButton_Right}" Command="ScrollBar.PageRightCommand" Delay="600000" Interval="600000" />
+                </Track.IncreaseRepeatButton>
+            </Track>
+            <RepeatButton Grid.Column="3" Style="{StaticResource ScrollBarLineButton}" Width="13" Command="ScrollBar.LineRightCommand" Content="M 0 1 L 7 6 L 0 11 Z" Delay="500" Interval="10" />
+        </Grid>
+    </ControlTemplate>
+
+    <Style x:Key="CustomDataGridScrollBar" TargetType="{x:Type ScrollBar}">
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+        <Setter Property="OverridesDefaultStyle" Value="true"/>
+        <Style.Triggers>
+            <Trigger Property="Orientation" Value="Horizontal">
+                <Setter Property="Width" Value="Auto"/>
+                <Setter Property="Height" Value="15" />
+                <Setter Property="Margin" Value="0,0,0,-28" />
+                <Setter Property="Template" Value="{StaticResource HorizontalScrollBar}" />
+            </Trigger>
+            <Trigger Property="Orientation" Value="Vertical">
+                <Setter Property="Width" Value="15"/>
+                <Setter Property="Height" Value="Auto" />
+                <Setter Property="Margin" Value="0,0,-32,0" />
+                <Setter Property="Template" Value="{StaticResource VerticalScrollBar}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+
+
+    <Style x:Key="CustomStackPanelModalWindow" TargetType="{x:Type StackPanel}">
+        <Setter Property="IsEnabled" Value="True" />
+        <Setter Property="Visibility" Value="Visible" />
+        <Setter Property="DockPanel.Dock" Value="Bottom"/>
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="Height" Value="48" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="CustomLabelBase" TargetType="{x:Type Label}">
+        <Setter Property="Visibility" Value="Visible"/>
+        <Setter Property="IsEnabled" Value="True" />
+        <Setter Property="Foreground" Value="{StaticResource CustomForegroundDarkBlue_Colour}" />
+    </Style>
+
+    <Style x:Key="CustomLabelModalWindowTitle" TargetType="{x:Type Label}" BasedOn="{StaticResource CustomLabelBase}">
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="Margin" Value="5,0,0,0" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+    </Style>
+
+    <Style x:Key="CustomLabelMenuTitle" TargetType="{x:Type Label}" BasedOn="{StaticResource CustomLabelBase}">
+        <Setter Property="FontWeight" Value="DemiBold" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+    </Style>
+
+    <Style x:Key="CustomBorderBase" TargetType="{x:Type Border}">
+        <Setter Property="Visibility" Value="Visible"/>
+        <Setter Property="IsEnabled" Value="True" />
+    </Style>
+
+    <Style x:Key="CustomBorderModalWindow" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderBase}">
+        <Setter Property="BorderBrush" Value="Black" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="8" />
+        <Setter Property="Padding" Value="5" />
+    </Style>
+
+    <Style x:Key="CustomBorderModalWindowOuter" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderModalWindow}">
+        <Setter Property="Background" Value="{StaticResource CustomBackgroundDarkBlue_Colour}" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=IsWindowsXP}" Value="True">
+                <Setter Property="CornerRadius" Value="0" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomBorderModalWindowInner" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderModalWindow}">
+        <Setter Property="Background" Value="{StaticResource CustomBackgroundLightBlue_Colour}" />
+    </Style>
+
+    <Style x:Key="CustomBorderTabItemContent" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderBase}">
+        <Setter Property="Background" Value="{StaticResource CustomBackgroundLightBlue_Colour}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomBorderDarkBlue_Colour}" />
+        <Setter Property="BorderThickness" Value="6" />
+        <Setter Property="Padding" Value="5,0" />
+        <Setter Property="CornerRadius" Value="8" />
+    </Style>
+
+    <Style x:Key="CustomBorderUnderline" TargetType="{x:Type Border}">
+        <Setter Property="Visibility" Value="Visible"/>
+        <Setter Property="IsEnabled" Value="True" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+        <Setter Property="HorizontalAlignment" Value="Stretch" />
+        <Setter Property="Height" Value="5" />
+        <Setter Property="Margin" Value="5,0,5,0" />
+        <Setter Property="BorderBrush" Value="#FF808888" />
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="CornerRadius" Value="2" />
+    </Style>
+
+    <Style x:Key="CustomButtonBase" TargetType="{x:Type Button}">
+        <Setter Property="Visibility" Value="Visible"/>
+        <Setter Property="IsEnabled" Value="True"/>
+        <Setter Property="ToolTipService.ShowOnDisabled" Value="True"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="3"/>
+                <Setter Property="BorderBrush" Value="Black" />
+                <Setter Property="BorderThickness" Value="1" />
+                <Style.Triggers>
+                    <Trigger Property="IsEnabled" Value="False">
+                        <Setter Property="BorderBrush" Value="#80000080"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </Style.Resources>
+    </Style>
+
+    <Style x:Key="CustomButtonBlueBase" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonBase}">
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="Background" Value="{StaticResource CustomButtonBlue_Colour}"/>
+        <Setter Property="Foreground" Value="{StaticResource CustomForegroundDarkBlue_Colour}"/>
+        <Setter Property="FontWeight" Value="DemiBold"/>
+        <Setter Property="ToolTip" Value="{Binding Content, RelativeSource={RelativeSource Mode=Self}}"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#FFB0E0E6"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="{StaticResource CustomButtonBlue_IsPressedColour}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonTabItemHeader" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonBlueBase}">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="Width" Value="170"/>
+        <Setter Property="Height" Value="30"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding IsSelected, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=TabItem}}" Value="True">
+                <Setter Property="Background" Value="{StaticResource CustomButtonBlue_IsPressedColour}" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonRightPanel" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonBlueBase}">
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Width" Value="124"/>
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Style.Triggers>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Margin" Value="1,1,-1,0"/>
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background" Value="#806495ED"/>
+                <Setter Property="Foreground" Value="#80000080"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonRightPanelAtBottom" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonRightPanel}">
+        <Setter Property="VerticalAlignment" Value="Bottom"/>
+    </Style>
+
+    <Style x:Key="CustomButtonTopPanel" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonBase}">
+        <Setter Property="Visibility" Value="Visible"/>
+        <Setter Property="Background" Value="#FFFFB090"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Width" Value="21"/>
+        <Setter Property="Height" Value="21"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=ShowTopPanelButtonsOnLeftSide}" Value="True">
+                <Setter Property="Visibility" Value="Collapsed"/>
+            </DataTrigger>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#FFFFC0A0"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#FFEFA080"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonTopPanelLeftSide" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonTopPanel}">
+        <Setter Property="Visibility" Value="Collapsed"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding Path=ShowTopPanelButtonsOnLeftSide}" Value="True">
+                <Setter Property="Visibility" Value="Visible"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonHelp" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonBase}">
+        <Setter Property="Content" Value="?"/>
+        <Setter Property="ToolTip" Value="{DynamicResource Help}"/>
+        <Setter Property="Background" Value="#FF87CEFA"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontWeight" Value="DemiBold"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Width" Value="25"/>
+        <Setter Property="Height" Value="25"/>
+        <Setter Property="Margin" Value="0,8,8,0" />
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="BorderBrush" Value="#FF000080"/>
+                <Setter Property="BorderThickness" Value="1"/>
+            </Style>
+        </Style.Resources>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#FF97DEFA"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#FF77BEEA"/>
+                <Setter Property="Margin" Value="0,9,7,0"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonFilter" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonBase}">
+        <Setter Property="Background" Value="#FF6495ED"/>
+        <Setter Property="Foreground" Value="{StaticResource CustomForegroundDarkBlue_Colour}"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="FontWeight" Value="DemiBold"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="3,3,0,0" />
+                <Setter Property="BorderBrush" Value="{StaticResource CustomForegroundDarkBlue_Colour}" />
+                <Setter Property="BorderThickness" Value="1" />
+            </Style>
+        </Style.Resources>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#FFB0E0E6" />
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#FFB0E0E6" />
+            </Trigger>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background" Value="#806495ED"/>
+                <Setter Property="Foreground" Value="#80000080"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonFilterSelected" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonFilter}">
+        <Setter Property="Visibility" Value="Collapsed" />
+        <Setter Property="Background" Value="#FFA0DBFA" />
+        <Setter Property="Height" Value="34" />
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="3,3,0,0" />
+                <Setter Property="BorderBrush" Value="Transparent" />
+                <Setter Property="BorderThickness" Value="1" />
+            </Style>
+        </Style.Resources>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#FFA0DBFA" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonExpandOrCollapseChildren" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonBlueBase}">
+        <Setter Property="IsEnabled" Value="False" />
+        <Setter Property="Visibility" Value="Collapsed" />
+        <Setter Property="Width" Value="26" />
+        <Setter Property="Content" Value="" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding HasChildren}" Value="True">
+                <Setter Property="Visibility" Value="Visible" />
+                <Setter Property="IsEnabled" Value="True" />
+                <Setter Property="Content" Value=">" />
+                <Setter Property="ToolTip" Value="{DynamicResource Expand}" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ShowChildren}" Value="True">
+                <Setter Property="Content" Value="v" />
+                <Setter Property="ToolTip" Value="{DynamicResource Collapse}" />
+            </DataTrigger>
+            <DataTrigger Binding="{Binding HasParent}" Value="True">
+                <Setter Property="Width" Value="15" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomButtonModalWindow" TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonBlueBase}">
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Width" Value="130"/>
+        <Setter Property="Height" Value="25"/>
+
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="18"/>
+    </Style>
+
+    <Style x:Key="CustomTabItemExample" TargetType="{x:Type TabItem}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type TabItem}">
+                    <Grid>
+                        <Border Name="Border" Margin="0,0,0,0" Background="Transparent" BorderBrush="Black" BorderThickness="1,1,1,1" CornerRadius="5">
+                            <ContentPresenter x:Name="ContentSite" VerticalAlignment="Center" HorizontalAlignment="Center" ContentSource="Header" Margin="12,2,12,2" RecognizesAccessKey="True">
+                                <ContentPresenter.LayoutTransform>
+                                    <RotateTransform Angle="270" />
+                                </ContentPresenter.LayoutTransform>
+                            </ContentPresenter>
+                        </Border>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Panel.ZIndex" Value="100" />
+                            <Setter TargetName="Border" Property="Background" Value="Red" />
+                            <Setter TargetName="Border" Property="BorderThickness" Value="1,1,1,0" />
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="False">
+                            <Setter TargetName="Border" Property="Background" Value="DarkRed" />
+                            <Setter TargetName="Border" Property="BorderBrush" Value="Black" />
+                            <Setter Property="Foreground" Value="DarkGray" />
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="CustomBorderTabItem" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderBase}">
+        <Setter Property="Margin" Value="0" />
+        <Setter Property="Width" Value="193" />
+        <Setter Property="Background" Value="{StaticResource CustomBackgroundLightBlue_SolidColour}" />
+        <Setter Property="BorderBrush" Value="{StaticResource CustomBorderDarkBlue_Colour}" />
+    </Style>
+
+    <Style x:Key="CustomBorderTabItemTop" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderTabItem}">
+        <Setter Property="BorderThickness" Value="6,6,6,0" />
+        <Setter Property="Height" Value="159" />
+        <Setter Property="CornerRadius" Value="8,8,0,0" />
+        <Setter Property="Padding" Value="5,5,5,0" />
+    </Style>
+
+    <Style x:Key="CustomBorderTabItemMiddle" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderTabItem}">
+        <Setter Property="BorderThickness" Value="6,0" />
+        <Setter Property="Height" Value="34" />
+        <Setter Property="Padding" Value="5,0" />
+    </Style>
+
+    <Style x:Key="CustomBorderTabItemMiddleWithExtraOffset" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderTabItemMiddle}">
+        <Setter Property="Height" Value="39" />
+        <Setter Property="Padding" Value="5,5,5,0" />
+    </Style>
+
+    <Style x:Key="CustomBorderTabItemMiddleFilling" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderTabItem}">
+        <Setter Property="BorderThickness" Value="6,0" />
+        <Setter Property="Height" Value="10" />
+        <Setter Property="Padding" Value="5,0" />
+        <Setter Property="Background" Value="{StaticResource CustomBackgroundLightBlue_MiddleFillingColour}" />
+    </Style>
+
+    <Style x:Key="CustomBorderTabItemBottom" TargetType="{x:Type Border}" BasedOn="{StaticResource CustomBorderTabItem}">
+        <Setter Property="BorderThickness" Value="6,0,6,6" />
+        <Setter Property="Height" Value="64" />
+        <Setter Property="CornerRadius" Value="0,0,8,8" />
+        <Setter Property="Padding" Value="5,0,5,5" />
+    </Style>
+
+    <Style x:Key="CustomTooltip" TargetType="{x:Type ToolTip}">
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="FontStyle" Value="Normal" />
+        <Setter Property="FontWeight" Value="Medium" />
+        <Setter Property="Foreground" Value="{StaticResource CustomForegroundDarkBlue_Colour}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ToolTip">
+                    <Border Margin="5" Name="Border" CornerRadius="4" BorderThickness="1" BorderBrush="Black" Width="{TemplateBinding Width}" Height="{TemplateBinding Height}" MinWidth="20" Background="{StaticResource CustomBackgroundLightBlue_Colour}">
+                        <ContentPresenter Margin="4" HorizontalAlignment="Left" VerticalAlignment="Top" />
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="4" BlurRadius="5" Direction="310" Opacity="0.5" />
+                        </Border.Effect>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="{x:Type DataGridCell}" TargetType="{x:Type DataGridCell}">
+        <Setter Property="Background" Value="{x:Null}" />
+        <Setter Property="BorderBrush" Value="{x:Null}" />
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="{x:Null}" />
+                <Setter Property="BorderBrush" Value="{x:Null}" />
+                <Setter Property="Foreground" Value="Black" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="{x:Type DataGridRow}">
+        <Setter Property="Background" Value="{x:Null}" />
+        <Setter Property="BorderBrush" Value="{x:Null}" />
+        <Style.Triggers>
+            <Trigger Property="IsSelected" Value="True">
+                <Setter Property="Background" Value="{x:Null}" />
+                <Setter Property="BorderBrush" Value="{x:Null}" />
+                <Setter Property="Foreground" Value="Black" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomGrid_Outer_ColumnHeaderStyle" TargetType="Grid">
+        <Setter Property="Height" Value="25" />
+    </Style>
+    <Style x:Key="CustomGrid_Inner_ColumnHeaderStyle" TargetType="Grid">
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="CustomTextBlock_ColumnHeaderStyle" TargetType="TextBlock">
+        <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="CustomPolygon_ActiveSortStyle" TargetType="Polygon">
+        <Setter Property="Visibility" Value="Collapsed" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+        <Setter Property="HorizontalAlignment" Value="Right" />
+        <Setter Property="Fill" Value="{StaticResource CustomPolygonWhite_Colour}" />
+        <Setter Property="Stroke" Value="{StaticResource CustomPolygonWhite_Colour}" />
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding}" Value="True">
+                <Setter Property="Visibility" Value="Visible" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="CustomPolygon_ActiveSortStyle_Ascending" TargetType="Polygon" BasedOn="{StaticResource CustomPolygon_ActiveSortStyle}">
+        <Setter Property="Points" Value="0,8 5,0, 10,8" />
+    </Style>
+    <Style x:Key="CustomPolygon_ActiveSortStyle_Descending" TargetType="Polygon" BasedOn="{StaticResource CustomPolygon_ActiveSortStyle}">
+        <Setter Property="Points" Value="0,0 5,8, 10,0" />
+    </Style>
+
+
+    <Style x:Key="CustomDataGrid_Style" TargetType="DataGrid">
+        <Setter Property="BorderThickness" Value="0"/>
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="4"/>
+            </Style>
+        </Style.Resources>
+    </Style>
+
+    <Style x:Key="CustomDataGrid_RowStyle" TargetType="DataGridRow">
+        <Setter Property="Visibility" Value="Visible"/>
+        <Setter Property="Height" Value="65"/>
+        <Setter Property="Background" Value="{StaticResource CustomDataGrid_Colour}"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="DataGridRow">
+                    <Border BorderThickness="{TemplateBinding Border.BorderThickness}" BorderBrush="{TemplateBinding Border.BorderBrush}" Background="{TemplateBinding Panel.Background}" Name="DGR_Border" SnapsToDevicePixels="True">
+                        <SelectiveScrollingGrid>
+                            <DataGridCellsPresenter ItemsPanel="{TemplateBinding ItemsControl.ItemsPanel}" SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}"/>
+                        </SelectiveScrollingGrid>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="{StaticResource CustomDataGrid_IsHoverColour}" />
+            </Trigger>
+            <DataTrigger Binding="{Binding Path=IsSelected}" Value="True">
+                <Setter Property="Background" Value="#FFEEEE66" />
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+    <Style x:Key="CustomDataGrid_ColumnHeaderStyle" TargetType="DataGridColumnHeader">
+        <Setter Property="Height" Value="25" />
+        <Setter Property="Background" Value="{StaticResource CustomDataGridHeader_Colour}" />
+    </Style>
+
+    <system:String x:Key="ColumnKey_ExpandCollapse">
+        Clmn_ExpandCollapse
+    </system:String>
+    <system:String x:Key="ColumnKey_Select">
+        Clmn_Select
+    </system:String>
+    <system:String x:Key="ColumnKey_Filename">
+        Clmn_Filename
+    </system:String>
+    <system:String x:Key="ColumnKey_Displaytitle">
+        Clmn_Displaytitle
+    </system:String>
+    <system:String x:Key="ColumnKey_ResourceName">
+        Clmn_ResourceName
+    </system:String>
+    <system:String x:Key="ColumnKey_Item">
+        Clmn_Item
+    </system:String>
+    <system:String x:Key="ColumnKey_Type">
+        Clmn_Type
+    </system:String>
+    <system:String x:Key="ColumnKey_SuperType">
+        Clmn_SuperType
+    </system:String>
+    <system:String x:Key="ColumnKey_SubType">
+        Clmn_SubType
+    </system:String>
+    <system:String x:Key="ColumnKey_Size">
+        Clmn_Size
+    </system:String>
+    <system:String x:Key="ColumnKey_Encryption">
+        Clmn_Encryption
+    </system:String>
+    <system:String x:Key="ColumnKey_PackageId">
+        Clmn_PackageId
+    </system:String>
+    <system:String x:Key="ColumnKey_Date">
+        Clmn_Date
+    </system:String>
+    <system:String x:Key="ColumnKey_PackageCount">
+        Clmn_PackageCount
+    </system:String>
+    <system:String x:Key="ColumnKey_Order">
+        Clmn_Order
+    </system:String>
+    <system:String x:Key="ColumnKey_PaidContent">
+        Clmn_PaidContent
+    </system:String>
+    <system:String x:Key="ColumnKey_Image">
+        Clmn_Image
+    </system:String>
+    <system:String x:Key="ColumnKey_Gender">
+        Clmn_Gender
+    </system:String>
+    <system:String x:Key="ColumnKey_Species">
+        Clmn_Species
+    </system:String>
+    <system:String x:Key="ColumnKey_Age">
+        Clmn_Age
+    </system:String>
+    <system:String x:Key="ColumnKey_EnglishName">
+        Clmn_EnglishName
+    </system:String>
+    <system:String x:Key="ColumnKey_FrenchName">
+        Clmn_FrenchName
+    </system:String>
+    <system:String x:Key="ColumnKey_SpanishSpainName">
+        Clmn_SpanishSpainName
+    </system:String>
+    <system:String x:Key="ColumnKey_JapaneseName">
+        Clmn_JapaneseName
+    </system:String>
+    <system:String x:Key="ColumnKey_ItalianName">
+        Clmn_ItalianName
+    </system:String>
+    <system:String x:Key="ColumnKey_KoreanName">
+        Clmn_KoreanName
+    </system:String>
+    <system:String x:Key="ColumnKey_GermanName">
+        Clmn_GermanName
+    </system:String>
+    <system:String x:Key="ColumnKey_ChineseTaiwanName">
+        Clmn_ChineseTaiwanName
+    </system:String>
+    <system:String x:Key="ColumnKey_ChineseChinaName">
+        Clmn_ChineseChinaName
+    </system:String>
+    <system:String x:Key="ColumnKey_CzechName">
+        Clmn_CzechName
+    </system:String>
+    <system:String x:Key="ColumnKey_DanishName">
+        Clmn_DanishName
+    </system:String>
+    <system:String x:Key="ColumnKey_DutchName">
+        Clmn_DutchName
+    </system:String>
+    <system:String x:Key="ColumnKey_FinnishName">
+        Clmn_FinnishName
+    </system:String>
+    <system:String x:Key="ColumnKey_GreekName">
+        Clmn_GreekName
+    </system:String>
+    <system:String x:Key="ColumnKey_HungarianName">
+        Clmn_HungarianName
+    </system:String>
+    <system:String x:Key="ColumnKey_NorwegianName">
+        Clmn_NorwegianName
+    </system:String>
+    <system:String x:Key="ColumnKey_PolishName">
+        Clmn_PolishName
+    </system:String>
+    <system:String x:Key="ColumnKey_PortuguesePortugalName">
+        Clmn_PortuguesePortugalName
+    </system:String>
+    <system:String x:Key="ColumnKey_RussianName">
+        Clmn_RussianName
+    </system:String>
+    <system:String x:Key="ColumnKey_SwedishName">
+        Clmn_SwedishName
+    </system:String>
+    <system:String x:Key="ColumnKey_ThaiName">
+        Clmn_ThaiName
+    </system:String>
+    <system:String x:Key="ColumnKey_SpanishMexicoName">
+        Clmn_SpanishMexicoName
+    </system:String>
+    <system:String x:Key="ColumnKey_PortugueseBrazilName">
+        Clmn_PortugueseBrazilName
+    </system:String>
+
+    <system:String x:Key="Clmn_Filename_Savename">
+        file
+    </system:String>
+    <system:String x:Key="Clmn_Displaytitle_Savename">
+        packagetitle
+    </system:String>
+    <system:String x:Key="Clmn_ResourceName_Savename">
+        resourcename
+    </system:String>
+    <system:String x:Key="Clmn_Item_Savename">
+        item
+    </system:String>
+    <system:String x:Key="Clmn_Type_Savename">
+        type
+    </system:String>
+    <system:String x:Key="Clmn_SuperType_Savename">
+        supertype
+    </system:String>
+    <system:String x:Key="Clmn_SubType_Savename">
+        subtype
+    </system:String>
+    <system:String x:Key="Clmn_Size_Savename">
+        size
+    </system:String>
+    <system:String x:Key="Clmn_Encryption_Savename">
+        encryption
+    </system:String>
+    <system:String x:Key="Clmn_PackageId_Savename">
+        packageid
+    </system:String>
+    <system:String x:Key="Clmn_Date_Savename">
+        date
+    </system:String>
+    <system:String x:Key="Clmn_PackageCount_Savename">
+        packagecount
+    </system:String>
+    <system:String x:Key="Clmn_Order_Savename">
+        order
+    </system:String>
+    <system:String x:Key="Clmn_PaidContent_Savename">
+        paidcontent
+    </system:String>
+    <system:String x:Key="Clmn_Image_Savename">
+        image
+    </system:String>
+    <system:String x:Key="Clmn_Gender_Savename">
+        gender
+    </system:String>
+    <system:String x:Key="Clmn_Species_Savename">
+        species
+    </system:String>
+    <system:String x:Key="Clmn_Age_Savename">
+        age
+    </system:String>
+    <system:String x:Key="Clmn_EnglishName_Savename">
+        englishname
+    </system:String>
+    <system:String x:Key="Clmn_FrenchName_Savename">
+        frenchname
+    </system:String>
+    <system:String x:Key="Clmn_SpanishSpainName_Savename">
+        spanishspainname
+    </system:String>
+    <system:String x:Key="Clmn_JapaneseName_Savename">
+        japanesename
+    </system:String>
+    <system:String x:Key="Clmn_ItalianName_Savename">
+        italianname
+    </system:String>
+    <system:String x:Key="Clmn_KoreanName_Savename">
+        koreanname
+    </system:String>
+    <system:String x:Key="Clmn_GermanName_Savename">
+        germanname
+    </system:String>
+    <system:String x:Key="Clmn_ChineseTaiwanName_Savename">
+        chinesetaiwanname
+    </system:String>
+    <system:String x:Key="Clmn_ChineseChinaName_Savename">
+        chinesechinaname
+    </system:String>
+    <system:String x:Key="Clmn_CzechName_Savename">
+        czechname
+    </system:String>
+    <system:String x:Key="Clmn_DanishName_Savename">
+        danishname
+    </system:String>
+    <system:String x:Key="Clmn_DutchName_Savename">
+        dutchname
+    </system:String>
+    <system:String x:Key="Clmn_FinnishName_Savename">
+        finnishname
+    </system:String>
+    <system:String x:Key="Clmn_GreekName_Savename">
+        greekname
+    </system:String>
+    <system:String x:Key="Clmn_HungarianName_Savename">
+        hungarianname
+    </system:String>
+    <system:String x:Key="Clmn_NorwegianName_Savename">
+        norwegianname
+    </system:String>
+    <system:String x:Key="Clmn_PolishName_Savename">
+        polishname
+    </system:String>
+    <system:String x:Key="Clmn_PortuguesePortugalName_Savename">
+        portugueseportugalname
+    </system:String>
+    <system:String x:Key="Clmn_RussianName_Savename">
+        russianname
+    </system:String>
+    <system:String x:Key="Clmn_SwedishName_Savename">
+        swedishname
+    </system:String>
+    <system:String x:Key="Clmn_ThaiName_Savename">
+        thainame
+    </system:String>
+    <system:String x:Key="Clmn_SpanishMexicoName_Savename">
+        spanishmexiconame
+    </system:String>
+    <system:String x:Key="Clmn_PortugueseBrazilName_Savename">
+        portuguesebrazilname
+    </system:String>
+    
+</ResourceDictionary>

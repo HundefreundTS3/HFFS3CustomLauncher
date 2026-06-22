@@ -1,0 +1,56 @@
+﻿<Window x:Class="HFFS3CustomLauncher.DialogueWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HFFS3CustomLauncher" d:DataContext="{d:DesignInstance Type=local:DialogueLogic}"
+        mc:Ignorable="d"
+        Title="{Binding Title}" Height="252" Width="507" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="#00000000" MouseLeftButtonDown="OnMoveWindow" ResizeMode="NoResize">
+
+    <Window.Resources>
+        <Style TargetType="ToolTip" BasedOn="{StaticResource CustomTooltip}" />
+    </Window.Resources>
+
+    <Border Style="{StaticResource CustomBorderModalWindowOuter}">
+        <DockPanel>
+            <StackPanel>
+                <StackPanel.Style>
+                    <Style TargetType="StackPanel" BasedOn="{StaticResource CustomStackPanelModalWindow}">
+                        <Setter Property="Visibility" Value="Visible" />
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsYesNoDialogue}" Value="True" >
+                                <Setter Property="Visibility" Value="Collapsed" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Style>
+                <Button x:Name="button_DialogueOK" Content="{Binding OK}" Click="OnClickDialogueOK" Style="{StaticResource CustomButtonModalWindow}" />
+            </StackPanel>
+            <StackPanel>
+                <StackPanel.Style>
+                    <Style TargetType="StackPanel" BasedOn="{StaticResource CustomStackPanelModalWindow}">
+                        <Setter Property="Visibility" Value="Collapsed" />
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsYesNoDialogue}" Value="True" >
+                                <Setter Property="Visibility" Value="Visible" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Style>
+                <Button x:Name="button_DialogueYes" Content="{Binding Yes}" Click="OnClickDialogueYes" Style="{StaticResource CustomButtonModalWindow}" />
+                <Separator Margin="10,0,0,0" Visibility="Hidden" />
+                <Button x:Name="button_DialogueNo" Content="{Binding No}" Click="OnClickDialogueNo" Style="{StaticResource CustomButtonModalWindow}" />
+            </StackPanel>
+            <Border Style="{StaticResource CustomBorderModalWindowInner}">
+                <Border.Effect>
+                    <DropShadowEffect ShadowDepth="3" Opacity="0.3"/>
+                </Border.Effect>
+                <StackPanel Orientation="Vertical">
+                    <Label Content="{Binding Title}"  Style="{StaticResource CustomLabelModalWindowTitle}" />
+                    <Border Style="{StaticResource CustomBorderUnderline}" />
+                    <TextBlock Margin="10,10,10,0" Foreground="#FF404080" FontWeight="DemiBold" FontSize="15" TextWrapping="WrapWithOverflow" Text="{Binding Description}" />
+                </StackPanel>
+            </Border>
+        </DockPanel>
+    </Border>
+</Window>

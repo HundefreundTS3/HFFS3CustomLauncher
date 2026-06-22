@@ -1,0 +1,252 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    
+    <system:String x:Key="Yes_proceed">Ja, fahre fort</system:String>
+    <system:String x:Key="No_it_is">Nein, es ist...</system:String>
+    <system:String x:Key="Exit">Beenden</system:String>
+    <system:String x:Key="Initial_Setup">Initiales Setup</system:String>
+    <system:String x:Key="Is_this_your_Sims_3_User_Files_Directory">Ist dies dein Sims 3-Nutzerdatenverzeichnis?</system:String>
+    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">(Das Verzeichnis, in dem sich all deine persönlichen Sims 3-Daten befinden.)</system:String>
+
+    <system:String x:Key="OK">OK</system:String>
+    <system:String x:Key="Yes">Ja</system:String>
+    <system:String x:Key="No">Nein</system:String>
+    <system:String x:Key="Success">Erfolg</system:String>
+    <system:String x:Key="Attention">Achtung</system:String>
+    <system:String x:Key="Warning">Warnung</system:String>
+    <system:String x:Key="Error">Fehler</system:String>
+    <system:String x:Key="Decrypt_SuccessText">Alle gewählten Dateien wurden erfolgreich entschlüsselt!</system:String>
+    <system:String x:Key="CouldNotOpenFolder">Konnte den Ordner nicht öffnen.</system:String>
+    <system:String x:Key="Deleting_files">Dateien löschen</system:String>
+    <system:String x:Key="DeletingFilesText">Willst du wirklich die ausgewählten Dateien löschen? Du wirst sie nicht mehr wiederherstellen können!</system:String>
+    <system:String x:Key="Error_Code">Fehlercode {0}</system:String>
+    <system:String x:Key="ErrorText_0">Unbekannter Fehler.</system:String>
+    <system:String x:Key="ErrorText_1">Konnte Nutzerdaten nicht identifizieren.</system:String>
+    <system:String x:Key="ErrorText_2">Konnte nicht auf aktuelles Verzeichnis des Programms zugreifen.</system:String>
+    <system:String x:Key="ErrorText_3">Konnte nicht auf die Ressourcen dieses Programms zugreifen.</system:String>
+    <system:String x:Key="ErrorText_4">Konnte nicht das Sims 3-Nutzerdatenverzeichnis ermitteln.</system:String>
+    <system:String x:Key="ErrorText_5">Kann nicht zugreifen auf das angegebene Nutzerdatenverzeichnis: {0}</system:String>
+    <system:String x:Key="ErrorText_6">Konnte Hauptfenster nicht initialisieren.</system:String>
+    <system:String x:Key="ErrorText_7">Konnte nicht auf persönlichen Programmordner im Sims 3-Nutzerdatenverzeichnis zugreifen oder ihn erstellen.</system:String>
+    <system:String x:Key="ErrorText_8">Kritischer Fehler aufgrund fehlender Komponenten. {0}</system:String>
+    <system:String x:Key="ErrorText_8_Addendum">Grund: Fehlende Installationsvoraussetzung. Der Patch "Microsoft .NET Framework 4 KB2468871" muss installiert sein, um dieses Programm nutzen zu können.</system:String>
+    <system:String x:Key="ErrorText_9">Konnte Hauptfenster nicht instanziieren.</system:String>
+    <system:String x:Key="ErrorText_10">Ein unbekannter Fehler ist aufgetreten bezogen auf Entschlüsselung.</system:String>
+    <system:String x:Key="ErrorText_13">Unzulässige Handlung.</system:String>
+    <system:String x:Key="ErrorText_15">Keine Dateien ausgewählt.</system:String>
+
+    <system:String x:Key="The_Sims_3_Custom_Launcher_by_Hundefreund">Die Sims 3 Custom-Launcher von Hundefreund</system:String>
+    <system:String x:Key="Close">Schließen</system:String>
+    <system:String x:Key="Minimize">Minimieren</system:String>
+    <system:String x:Key="Maximize">Maximieren</system:String>
+    <system:String x:Key="Restore">Wiederherstellen</system:String>
+
+    <system:String x:Key="Help">Hilfe</system:String>
+    <system:String x:Key="Downloads">Downloads</system:String>
+    <system:String x:Key="Downloads_Description">Zeigt alle Sims 3-Dateien in deinem Downloads-Ordner an.</system:String>
+    <system:String x:Key="Processing">Verarbeitung läuft...</system:String>
+
+    <system:String x:Key="All">Alle</system:String>
+    <system:String x:Key="Sims3Packs">Sims3Packs</system:String>
+    <system:String x:Key="Packages">Pakete</system:String>
+    <system:String x:Key="Tooltip_CannotFilter">Verarbeitung muss abgeschlossen werden bevor Filterung möglich ist.</system:String>
+
+    <system:String x:Key="Select_All">Alle wählen</system:String>
+    <system:String x:Key="Tooltip_CannotSelectAll">Verarbeitung muss abgeschlossen werden bevor alles zusammen ausgewählt werden kann.</system:String>
+    <system:String x:Key="Select_None">Keine wählen</system:String>
+    <system:String x:Key="Expand_All">Alle ausklappen</system:String>
+    <system:String x:Key="Tooltip_CannotExpandAll">Verarbeitung muss abgeschlossen werden bevor alles zusammen ausgeklappt werden kann.</system:String>
+    <system:String x:Key="Collapse_All">Alle einklappen</system:String>
+    <system:String x:Key="Keep_collapsable_content_at_parent">Unterinhalte bei Elternknoten lassen</system:String>
+    <system:String x:Key="Sort_only_collapsable_content">Nur Unterinhalte sortieren</system:String>
+
+    <system:String x:Key="Sort_by">Sortieren nach:</system:String>
+    <system:String x:Key="Clmn_ExpandCollapse">Eingeklapptes/Ausgeklapptes</system:String>
+    <system:String x:Key="Clmn_Select">Ungewählt/Ausgewählt</system:String>
+    <system:String x:Key="Clmn_Filename">Datei</system:String>
+    <system:String x:Key="Clmn_Displaytitle">Pakettitel</system:String>
+    <system:String x:Key="Clmn_ResourceName">Ressourcenname</system:String>
+    <system:String x:Key="Clmn_Item">Objekt</system:String>
+    <system:String x:Key="Clmn_Type">Typ</system:String>
+    <system:String x:Key="Clmn_SuperType">Obertyp</system:String>
+    <system:String x:Key="Clmn_SubType">Untertyp</system:String>
+    <system:String x:Key="Clmn_Size">Größe</system:String>
+    <system:String x:Key="Clmn_Encryption">Verschlüsselung</system:String>
+    <system:String x:Key="Clmn_PackageId">Paket-ID</system:String>
+    <system:String x:Key="Clmn_PaidContent">Bezahlware</system:String>
+    <system:String x:Key="Clmn_Image">Bild</system:String>
+    <system:String x:Key="Clmn_PackageCount">Paketzahl</system:String>
+    <system:String x:Key="Clmn_Date">Datum</system:String>
+    <system:String x:Key="Clmn_Order">Anordnung</system:String>
+    <system:String x:Key="Clmn_Gender">Geschlecht</system:String>
+    <system:String x:Key="Clmn_Species">Spezies</system:String>
+    <system:String x:Key="Clmn_Age">Alter</system:String>
+    <system:String x:Key="Localised_Names">Lokalisierte Namen</system:String>
+    <system:String x:Key="Clmn_EnglishName">Englischer Name</system:String>
+    <system:String x:Key="Clmn_FrenchName">Französischer Name</system:String>
+    <system:String x:Key="Clmn_SpanishSpainName">Spanischer Name (Spanien)</system:String>
+    <system:String x:Key="Clmn_JapaneseName">Japanischer Name</system:String>
+    <system:String x:Key="Clmn_ItalianName">Italienischer Name</system:String>
+    <system:String x:Key="Clmn_KoreanName">Koreanischer Name</system:String>
+    <system:String x:Key="Clmn_GermanName">Deutscher Name</system:String>
+    <system:String x:Key="Clmn_ChineseTaiwanName">Chinesischer Name (Taiwan)</system:String>
+    <system:String x:Key="Clmn_ChineseChinaName">Chinesischer Name (China)</system:String>
+    <system:String x:Key="Clmn_CzechName">Tschechischer Name</system:String>
+    <system:String x:Key="Clmn_DanishName">Dänischer Name</system:String>
+    <system:String x:Key="Clmn_DutchName">Niederländischer Name</system:String>
+    <system:String x:Key="Clmn_FinnishName">Finnischer Name</system:String>
+    <system:String x:Key="Clmn_GreekName">Griechischer Name</system:String>
+    <system:String x:Key="Clmn_HungarianName">Ungarischer Name</system:String>
+    <system:String x:Key="Clmn_NorwegianName">Norwegischer Name</system:String>
+    <system:String x:Key="Clmn_PolishName">Polnischer Name</system:String>
+    <system:String x:Key="Clmn_PortuguesePortugalName">Portugiesischer Name (Portugal)</system:String>
+    <system:String x:Key="Clmn_RussianName">Russischer Name</system:String>
+    <system:String x:Key="Clmn_SwedishName">Schwedischer Name</system:String>
+    <system:String x:Key="Clmn_ThaiName">Thailändischer Name</system:String>
+    <system:String x:Key="Clmn_SpanishMexicoName">Spanischer Name (Mexiko)</system:String>
+    <system:String x:Key="Clmn_PortugueseBrazilName">Portugiesischer Name (Brasilien)</system:String>
+    <system:String x:Key="Tooltip_CannotSort">Verarbeitung muss abgeschlossen werden bevor Sortierung möglich ist.</system:String>
+    <system:String x:Key="Advanced_Options">Fortgeschrittene Optionen</system:String>
+
+    <system:String x:Key="ContentType_object">Objekt</system:String>
+    <system:String x:Key="ContentType_object_BuildObject">Bau-Objekt</system:String>
+    <system:String x:Key="ContentType_object_BuyObject">Kauf-Objekt</system:String>
+    <system:String x:Key="ContentType_CASpart">EES-Komponente</system:String>
+    <system:String x:Key="ContentType_CASpart_Hair">Haar</system:String>
+    <system:String x:Key="ContentType_CASpart_Scalp">Kopfhaut</system:String>
+    <system:String x:Key="ContentType_CASpart_Fulloutfit">Komplettes Outfit</system:String>
+    <system:String x:Key="ContentType_CASpart_Top">Oberbekleidung</system:String>
+    <system:String x:Key="ContentType_CASpart_Bottom">Beinkleidung</system:String>
+    <system:String x:Key="ContentType_CASpart_Shoes">Schuhe</system:String>
+    <system:String x:Key="ContentType_CASpart_Necklace">Kette</system:String>
+    <system:String x:Key="ContentType_CASpart_Nosering">Nasenring</system:String>
+    <system:String x:Key="ContentType_CASpart_Earrings">Ohrringe</system:String>
+    <system:String x:Key="ContentType_CASpart_Glasses">Brille</system:String>
+    <system:String x:Key="ContentType_CASpart_Bracelet">Armreifen</system:String>
+    <system:String x:Key="ContentType_CASpart_Ring">Ring</system:String>
+    <system:String x:Key="ContentType_CASpart_WeddingRing">Ehering</system:String>
+    <system:String x:Key="ContentType_CASpart_Beard">Bart</system:String>
+    <system:String x:Key="ContentType_CASpart_Lipstick">Lippenstift</system:String>
+    <system:String x:Key="ContentType_CASpart_Eyeshadow">Lidschatten</system:String>
+    <system:String x:Key="ContentType_CASpart_Eyeliner">Eyeliner</system:String>
+    <system:String x:Key="ContentType_CASpart_Blush">Rouge</system:String>
+    <system:String x:Key="ContentType_CASpart_CostumeMakeup">Kostüm-Make-up</system:String>
+    <system:String x:Key="ContentType_CASpart_Eyebrows">Augenbrauen</system:String>
+    <system:String x:Key="ContentType_CASpart_EyeColor">Augenfarbe</system:String>
+    <system:String x:Key="ContentType_CASpart_Gloves">Handschuhe</system:String>
+    <system:String x:Key="ContentType_CASpart_Socks">Socken</system:String>
+    <system:String x:Key="ContentType_CASpart_Mascara">Mascara</system:String>
+    <system:String x:Key="ContentType_CASpart_Freckles">Sommersprossen</system:String>
+    <system:String x:Key="ContentType_preset">Voreinstellung</system:String>
+    <system:String x:Key="ContentType_preset_Style">Stil</system:String>
+    <system:String x:Key="ContentType_pattern">Muster</system:String>
+    <system:String x:Key="ContentType_sim">Sim</system:String>
+    <system:String x:Key="ContentType_sim_Pet">Tier</system:String>
+    <system:String x:Key="ContentType_household">Haushalt</system:String>
+    <system:String x:Key="ContentType_lot">Grundstück</system:String>
+    <system:String x:Key="ContentType_world">Welt</system:String>
+    <system:String x:Key="ContentType_dynamicchallenge">Dynamic Challenge</system:String>
+    <system:String x:Key="ContentType_coatset">Fellsatz</system:String>
+    <system:String x:Key="ContentType_haircolorinfo">Haarfarbeninfo</system:String>
+    <system:String x:Key="ContentType_haircolorinfo_HairColor">Haarfarbe</system:String>
+    <system:String x:Key="ContentType_ERROR">FEHLER</system:String>
+
+    <system:String x:Key="Gender_Male">Männlich</system:String>
+    <system:String x:Key="Gender_Female">Weiblich</system:String>
+    <system:String x:Key="Species_Sim">Sim</system:String>
+    <system:String x:Key="Species_Horse">Pferd</system:String>
+    <system:String x:Key="Species_Cat">Katze</system:String>
+    <system:String x:Key="Species_Largedog">Großer Hund</system:String>
+    <system:String x:Key="Species_Smalldog">Kleiner Hund</system:String>
+    <system:String x:Key="Age_Baby">Baby</system:String>
+    <system:String x:Key="Age_Toddler">Kleinkind</system:String>
+    <system:String x:Key="Age_Child">Kind</system:String>
+    <system:String x:Key="Age_Teen">Teenager</system:String>
+    <system:String x:Key="Age_Youngadult">Junge(r) Erwachsene(r)</system:String>
+    <system:String x:Key="Age_Adult">Erwachsene(r)</system:String>
+    <system:String x:Key="Age_Elder">Senior(in)</system:String>
+
+    <system:String x:Key="Display">Anzeigen</system:String>
+    <system:String x:Key="Sort">Sortieren</system:String>
+    <system:String x:Key="Filter">Filtern</system:String>
+    <system:String x:Key="Ascending">Aufsteigend</system:String>
+    <system:String x:Key="Descending">Absteigend</system:String>
+    <system:String x:Key="Expand">Ausklappen</system:String>
+    <system:String x:Key="Collapse">Einklappen</system:String>
+
+    <system:String x:Key="Delete">Löschen</system:String>
+    <system:String x:Key="Tooltip_CannotDelete">Verarbeitung muss abgeschlossen werden bevor Dateien gelöscht werden können.</system:String>
+    <system:String x:Key="Open_Folder">Ordner öffnen</system:String>
+    <system:String x:Key="Decrypt">Entschlüsseln</system:String>
+
+    <system:String x:Key="Pending">Ausstehend</system:String>
+    <system:String x:Key="None">Keine</system:String>
+    <system:String x:Key="Present">Vorhanden</system:String>
+    <system:String x:Key="Mixed">Gemischt</system:String>
+    <system:String x:Key="_">-</system:String>
+    <system:String x:Key="Unknown">Unbekannt</system:String>
+    <system:String x:Key="ERROR">FEHLER</system:String>
+    <system:String x:Key="PaidContent_True">Ja</system:String>
+    <system:String x:Key="PaidContent_False">Nein</system:String>
+
+    <system:String x:Key="Info">Info</system:String>
+    <system:String x:Key="Contact_Info">Kontaktinformationen</system:String>
+    <system:String x:Key="Contact_Info_Text">Wer Hilfe braucht oder Anmerkungen hat, kann mich hier erreichen:</system:String>
+    <system:String x:Key="Terms_of_Service">Nutzungsbedingungen</system:String>
+    <system:String x:Key="Terms_of_Service_Part1">Dieses Programm ist mein Eigentum und ich behalte mir das Recht vor, die Nutzungsbedingungen für zukünftige Versionen jederzeit nach eigenem Ermessen zu ändern.</system:String>
+    <system:String x:Key="Terms_of_Service_Part2">Ich hafte für keinerlei Schäden die durch den Gebrauch dieses Programms zustande kommen.</system:String>
+    <system:String x:Key="Terms_of_Service_Part2_Extra">Trotzdem BITTE ich euch alle, Sicherungen von persönlichen Daten im Voraus zu machen. Ich gebe mein Bestes, aber ich mache dennoch auch Fehler.</system:String>
+    <system:String x:Key="Terms_of_Service_Part3">Dieses Programm ist kostenlos. Wenn ihr Geld bezahlt habt um es zu bekommen, dann wurdet ihr betrogen. In diesem Fall solltet ihr versuchen, so schnell wie möglich euer Geld zurückzuverlangen. Die einzigen offiziellen Orte um dieses Programm zu beschaffen sind oben aufgelistet, unter 'Kontaktinformationen'.</system:String>
+    <system:String x:Key="Terms_of_Service_Part3_Extra">Nichtsdestotrotz freue ich mich sehr über jede freiwillige Spende.</system:String>
+    <system:String x:Key="Legal_Notice">Drittanbieter-Tools und -Software</system:String>
+    <system:String x:Key="Legal_Notice_Text">Dieses Programm wurde erstellt mithilfe von Microsoft Visual Studio 2022, .NET Framework 4, C# und WPF. Außerdem wurden die Packages Microsoft.Bcl (1.1.10), Microsoft.Bcl.Async (1.0.168) und Microsoft.Bcl.Build (1.0.21) verwendet.</system:String>
+    <system:String x:Key="Special_Thanks">Besonderer Dank geht an...</system:String>
+    <system:String x:Key="Special_Thanks_Text">
+        ...zunächst einmal meine Familie für ihre Unterstützung.
+    Ich möchte mich auch bei der Hochschule Ravensburg-Weingarten dafür bedanken, dass sie mir alles beigebracht haben, was ich wissen musste, um dieses Programm kreieren zu können.
+    Selbstverständlich gebühren Maxis und Will Wright Anerkennung dafür, dass sie solch eine einzigartige Spieleserie erschaffen haben.
+    Zusätzlicher Dank geht an die Macher der verwendeten Drittanbieter-Software sowie s3pe, s3rc, Delphy's Sims 3 Pack Multi-Extracter und Sims3Pack File Generate Tool.
+    Und ein ganz großes Dankeschön an alle Fans, Ersteller und Spieler, die einen Beitrag zu Die Sims 3 oder Die Sims im Allgemeinen geleistet haben. Ohne euch wären die Spiele nicht das, was sie heute sind.
+    </system:String>
+    <system:String x:Key="Special_Thanks_Text_Part2">
+        Und jetzt zum wichtigsten Teil: Hier könnte DEIN Name stehen! Spaß beiseite, für alle, die mir Geld spenden, ganz egal wie wenig, werde ich ihre Namen hier einfügen beginnend ab der nächsten veröffentlichten Version. Mehr Informationen sind auf meiner Patreon-Seite zu finden. Der Link ist oben eingetragen, unter 'Kontaktinformationen'.
+    </system:String>
+
+    <system:String x:Key="Settings">Einstellungen</system:String>
+    <system:String x:Key="Language">Sprache</system:String>
+    <system:String x:Key="Version">Version:</system:String>
+    <system:String x:Key="Version_Tooltip">Version</system:String>
+
+    <system:String x:Key="Sims_3_User_Files_Directory">Sims 3-Nutzerdatenverzeichnis</system:String>
+    <system:String x:Key="Edit">Bearbeiten</system:String>
+
+    <system:String x:Key="Lngg_English">Englisch</system:String>
+    <system:String x:Key="Lngg_French">Französisch</system:String>
+    <system:String x:Key="Lngg_SpanishSpain">Spanisch (Spanien)</system:String>
+    <system:String x:Key="Lngg_Japanese">Japanisch</system:String>
+    <system:String x:Key="Lngg_Italian">Italienisch</system:String>
+    <system:String x:Key="Lngg_Korean">Koreanisch</system:String>
+    <system:String x:Key="Lngg_German">Deutsch</system:String>
+    <system:String x:Key="Lngg_ChineseTaiwan">Chinesisch (Taiwan)</system:String>
+    <system:String x:Key="Lngg_ChineseChina">Chinesisch (China)</system:String>
+    <system:String x:Key="Lngg_Czech">Tschechisch</system:String>
+    <system:String x:Key="Lngg_Danish">Dänisch</system:String>
+    <system:String x:Key="Lngg_Dutch">Niederländisch</system:String>
+    <system:String x:Key="Lngg_Finnish">Finnisch</system:String>
+    <system:String x:Key="Lngg_Greek">Griechisch</system:String>
+    <system:String x:Key="Lngg_Hungarian">Ungarisch</system:String>
+    <system:String x:Key="Lngg_Norwegian">Norwegisch</system:String>
+    <system:String x:Key="Lngg_Polish">Polnisch</system:String>
+    <system:String x:Key="Lngg_PortuguesePortugal">(Europäisch) Portugiesisch</system:String>
+    <system:String x:Key="Lngg_Russian">Russisch</system:String>
+    <system:String x:Key="Lngg_Swedish">Schwedisch</system:String>
+    <system:String x:Key="Lngg_Thai">Thai</system:String>
+    <system:String x:Key="Lngg_SpanishMexico">Spanisch (Mexiko)</system:String>
+    <system:String x:Key="Lngg_PortugueseBrazil">Portugiesisch (Brasilien)</system:String>
+
+    <system:String x:Key="Byte_Abbreviation">B</system:String>
+    <system:String x:Key="Kibibyte_Abbreviation">kiB</system:String>
+    <system:String x:Key="Mebibyte_Abbreviation">MiB</system:String>
+    <system:String x:Key="Gibibyte_Abbreviation">GiB</system:String>
+</ResourceDictionary>

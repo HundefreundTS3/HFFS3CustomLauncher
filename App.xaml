@@ -1,0 +1,14 @@
+﻿<Application x:Class="HFFS3CustomLauncher.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HFFS3CustomLauncher"
+             Startup="Application_Startup">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HFFS3CustomLauncher;component/Resources/ResourceDictionary.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="pack://application:,,,/HFFS3CustomLauncher;component/Resources/StringResources.en-US.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
