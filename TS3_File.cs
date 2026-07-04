@@ -8,7 +8,7 @@ namespace HFFS3CustomLauncher
 {
     public abstract class TS3_File : AnyFile
     {
-        private const int THUM_SIZE = 93;
+        private const int MAX_THUM_SIZE = 93;
         protected internal const byte FLAG_GENDER_MALE = 0x1;
         protected internal const byte FLAG_GENDER_FEMALE = 0x2;
         protected internal const byte FLAGS_GENDER_BOTH = 0x3;
@@ -586,8 +586,16 @@ namespace HFFS3CustomLauncher
                 {
                     StartMemoryStream.Write(imageBytes, 0, imageBytes.Length);
                     Bitmap startBitmap = new Bitmap(StartMemoryStream);
-                    int newHeight = THUM_SIZE;
-                    double HW_ratio = (double)((double)THUM_SIZE / (double)startBitmap.Height);
+                    int newHeight;
+                    if (startBitmap.Height < MAX_THUM_SIZE)
+                    {
+                        newHeight = startBitmap.Height;
+                    }
+                    else
+                    {
+                        newHeight = MAX_THUM_SIZE;
+                    }
+                    double HW_ratio = (double)((double)newHeight / (double)startBitmap.Height);
                     int newWidth = (int)(HW_ratio * (double)startBitmap.Width);
                     Bitmap newBitmap = new Bitmap(newWidth, newHeight);
                     Bitmap resizedImage = new Bitmap(newWidth, newHeight);

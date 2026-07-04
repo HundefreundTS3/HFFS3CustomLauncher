@@ -7,7 +7,7 @@
     <system:String x:Key="Exit">Exit</system:String>
     <system:String x:Key="Initial_Setup">Initial Setup</system:String>
     <system:String x:Key="Is_this_your_Sims_3_User_Files_Directory">Is this your Sims 3 User Files Directory?</system:String>
-    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">(The directory where all your personal Sims 3 data is stored.)</system:String>
+    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">(The folder where all your personal Sims 3 data is stored.)</system:String>
 
     <system:String x:Key="OK">OK</system:String>
     <system:String x:Key="Yes">Yes</system:String>
@@ -20,7 +20,7 @@
     <system:String x:Key="CouldNotOpenFolder">Could not open the folder.</system:String>
     <system:String x:Key="Deleting_files">Deleting files</system:String>
     <system:String x:Key="DeletingFilesText">Are you sure you want to delete the selected files? You will not be able to restore them!</system:String>
-    <system:String x:Key="Error_Code">Error Code {0}</system:String>
+    <system:String x:Key="Error_Code">Error - Code {0}</system:String>
     <system:String x:Key="ErrorText_0">Unknown error.</system:String>
     <system:String x:Key="ErrorText_1">Could not identify user data.</system:String>
     <system:String x:Key="ErrorText_2">Could not access this programme's current directory.</system:String>
@@ -40,7 +40,7 @@
     <system:String x:Key="Close">Close</system:String>
     <system:String x:Key="Minimize">Minimize</system:String>
     <system:String x:Key="Maximize">Maximize</system:String>
-    <system:String x:Key="Restore">Restore</system:String>
+    <system:String x:Key="Restore">Restore Down</system:String>
 
     <system:String x:Key="Help">Help</system:String>
     <system:String x:Key="Downloads">Downloads</system:String>
@@ -66,7 +66,7 @@
     <system:String x:Key="Clmn_Select">Unselected/Selected</system:String>
     <system:String x:Key="Clmn_Filename">File</system:String>
     <system:String x:Key="Clmn_Displaytitle">Package Title</system:String>
-    <system:String x:Key="Clmn_ResourceName">Resource Name</system:String>
+    <system:String x:Key="Clmn_ResourceName">Content Name</system:String>
     <system:String x:Key="Clmn_Item">Item</system:String>
     <system:String x:Key="Clmn_Type">Type</system:String>
     <system:String x:Key="Clmn_SuperType">Supertype</system:String>
@@ -246,7 +246,7 @@
     <system:String x:Key="Lngg_PortugueseBrazil">Portuguese (Brazil)</system:String>
 
     <system:String x:Key="Byte_Abbreviation">B</system:String>
-    <system:String x:Key="Kibibyte_Abbreviation">kiB</system:String>
+    <system:String x:Key="Kibibyte_Abbreviation">KiB</system:String>
     <system:String x:Key="Mebibyte_Abbreviation">MiB</system:String>
     <system:String x:Key="Gibibyte_Abbreviation">GiB</system:String>
 </ResourceDictionary>

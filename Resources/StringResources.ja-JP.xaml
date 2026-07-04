@@ -1,0 +1,202 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="Yes_proceed">はい！</system:String>
+    <system:String x:Key="No_it_is">いいえ…</system:String>
+    <system:String x:Key="Exit">終了</system:String>
+    <system:String x:Key="Is_this_your_Sims_3_User_Files_Directory">ザ・シムズ３ - 個人的なフォルダ：</system:String>
+    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">&#160;</system:String>
+
+    <system:String x:Key="OK">OK</system:String>
+    <system:String x:Key="Yes">はい</system:String>
+    <system:String x:Key="No">いいえ</system:String>
+    <system:String x:Key="Success">成功</system:String>
+    <system:String x:Key="Attention">注目</system:String>
+    <system:String x:Key="Warning">注意</system:String>
+    <system:String x:Key="Error">エラー</system:String>
+    <system:String x:Key="Deleting_files">ファイルの削除</system:String>
+    <system:String x:Key="DeletingFilesText">選択したアイテムを削除しますか？</system:String>
+    <system:String x:Key="Error_Code">エラー - Code {0}</system:String>
+
+    <system:String x:Key="The_Sims_3_Custom_Launcher_by_Hundefreund">Hundefreundからの（カスタム）ザ・シムズ３ ゲームランチャー</system:String>
+    <system:String x:Key="Close">閉じる</system:String>
+    <system:String x:Key="Minimize">最小化</system:String>
+    <system:String x:Key="Maximize">最大化</system:String>
+    <system:String x:Key="Restore">元に戻す（縮小）</system:String>
+
+    <system:String x:Key="Help">ヘルプ</system:String>
+    <system:String x:Key="Downloads">ダウンロード</system:String>
+    <system:String x:Key="Processing">ロード中…</system:String>
+
+    <system:String x:Key="All">全て</system:String>
+    <system:String x:Key="Sims3Packs">Sims3Packs</system:String>
+    <system:String x:Key="Packages">パッケージ</system:String>
+    <system:String x:Key="Tooltip_CannotFilter">ロード中…</system:String>
+
+    <system:String x:Key="Select_All">全て選択</system:String>
+    <system:String x:Key="Tooltip_CannotSelectAll">ロード中…</system:String>
+    <system:String x:Key="Select_None">選択無し</system:String>
+    <system:String x:Key="Tooltip_CannotExpandAll">ロード中…</system:String>
+
+    <system:String x:Key="Clmn_Filename">ファイル</system:String>
+    <system:String x:Key="Clmn_Displaytitle">パッケージ - 名</system:String>
+    <system:String x:Key="Clmn_ContentName">コンテンツ名</system:String>
+    <system:String x:Key="Clmn_Item">アイテム</system:String>
+    <system:String x:Key="Clmn_Type">種類</system:String>
+    <system:String x:Key="Clmn_SuperType">スーパータイプ</system:String>
+    <system:String x:Key="Clmn_SubType">サブタイプ</system:String>
+    <system:String x:Key="Clmn_Size">サイズ</system:String>
+    <system:String x:Key="Clmn_Encryption">暗号化</system:String>
+    <system:String x:Key="Clmn_PackageId">パッケージ - ＩＤ</system:String>
+    <system:String x:Key="Clmn_PaidContent">ストア</system:String>
+    <system:String x:Key="Clmn_Image">イメージ</system:String>
+    <system:String x:Key="Clmn_PackageCount">パッケージ - 数量</system:String>
+    <system:String x:Key="Clmn_Date">年月日</system:String>
+    <system:String x:Key="Clmn_Order">順序</system:String>
+    <system:String x:Key="Clmn_Gender">性別</system:String>
+    <system:String x:Key="Clmn_Species">種族</system:String>
+    <system:String x:Key="Clmn_Age">年齢</system:String>
+    <system:String x:Key="Localised_Names">名 (LOCALIZED)</system:String>
+    <system:String x:Key="Clmn_EnglishName">英語名</system:String>
+    <system:String x:Key="Clmn_FrenchName">フランス語名</system:String>
+    <system:String x:Key="Clmn_SpanishSpainName">スペイン語名（スペイン）</system:String>
+    <system:String x:Key="Clmn_JapaneseName">日本語名</system:String>
+    <system:String x:Key="Clmn_ItalianName">イタリア語名</system:String>
+    <system:String x:Key="Clmn_KoreanName">韓国語名</system:String>
+    <system:String x:Key="Clmn_GermanName">ドイツ語名</system:String>
+    <system:String x:Key="Clmn_ChineseTaiwanName">中国語名（台湾）</system:String>
+    <system:String x:Key="Clmn_ChineseChinaName">中国語名（中国）</system:String>
+    <system:String x:Key="Clmn_CzechName">チェコ語名</system:String>
+    <system:String x:Key="Clmn_DanishName">デンマーク語名</system:String>
+    <system:String x:Key="Clmn_DutchName">オランダ語名</system:String>
+    <system:String x:Key="Clmn_FinnishName">フィンランド語名</system:String>
+    <system:String x:Key="Clmn_GreekName">ギリシア語名</system:String>
+    <system:String x:Key="Clmn_HungarianName">ハンガリー語名</system:String>
+    <system:String x:Key="Clmn_NorwegianName">ノルウェー語名</system:String>
+    <system:String x:Key="Clmn_PolishName">ポーランド語名</system:String>
+    <system:String x:Key="Clmn_PortuguesePortugalName">ポルトガル語名（ポルトガル）</system:String>
+    <system:String x:Key="Clmn_RussianName">ロシア語名</system:String>
+    <system:String x:Key="Clmn_SwedishName">スウェーデン語名</system:String>
+    <system:String x:Key="Clmn_ThaiName">タイ語名</system:String>
+    <system:String x:Key="Clmn_SpanishMexicoName">スペイン語名（メキシコ）</system:String>
+    <system:String x:Key="Clmn_PortugueseBrazilName">ポルトガル語名（ブラジル）</system:String>
+    <system:String x:Key="Tooltip_CannotSort">ロード中…</system:String>
+
+    <system:String x:Key="ContentType_object">オブジェクト</system:String>
+    <system:String x:Key="ContentType_object_BuildObject">建築オブジェクト</system:String>
+    <system:String x:Key="ContentType_object_BuyObject">購入オブジェクト</system:String>
+    <system:String x:Key="ContentType_CASpart">シム作成部分</system:String>
+    <system:String x:Key="ContentType_CASpart_Hair">髪</system:String>
+    <system:String x:Key="ContentType_CASpart_Scalp">頭皮</system:String>
+    <system:String x:Key="ContentType_CASpart_Fulloutfit">服装一式</system:String>
+    <system:String x:Key="ContentType_CASpart_Top">トップ</system:String>
+    <system:String x:Key="ContentType_CASpart_Bottom">ボトム</system:String>
+    <system:String x:Key="ContentType_CASpart_Shoes">靴</system:String>
+    <system:String x:Key="ContentType_CASpart_Necklace">ネックレス</system:String>
+    <system:String x:Key="ContentType_CASpart_Nosering">鼻ピアス</system:String>
+    <system:String x:Key="ContentType_CASpart_Earrings">イヤリング</system:String>
+    <system:String x:Key="ContentType_CASpart_Glasses">眼鏡</system:String>
+    <system:String x:Key="ContentType_CASpart_Bracelet">ブレスレット</system:String>
+    <system:String x:Key="ContentType_CASpart_Ring">指輪</system:String>
+    <system:String x:Key="ContentType_CASpart_WeddingRing">結婚指輪</system:String>
+    <system:String x:Key="ContentType_CASpart_Beard">あごひげ</system:String>
+    <system:String x:Key="ContentType_CASpart_Lipstick">口紅</system:String>
+    <system:String x:Key="ContentType_CASpart_Eyeshadow">アイシャドー</system:String>
+    <system:String x:Key="ContentType_CASpart_Eyeliner">アイライナー</system:String>
+    <system:String x:Key="ContentType_CASpart_Blush">ブラシ</system:String>
+    <system:String x:Key="ContentType_CASpart_CostumeMakeup">コスチューム/化粧</system:String>
+    <system:String x:Key="ContentType_CASpart_Eyebrows">眉</system:String>
+    <system:String x:Key="ContentType_CASpart_EyeColor">目の色</system:String>
+    <system:String x:Key="ContentType_CASpart_Gloves">手袋</system:String>
+    <system:String x:Key="ContentType_CASpart_Socks">靴下</system:String>
+    <system:String x:Key="ContentType_CASpart_Mascara">マスカラ</system:String>
+    <system:String x:Key="ContentType_CASpart_Freckles">そばかす</system:String>
+    <system:String x:Key="ContentType_preset">プリセット</system:String>
+    <system:String x:Key="ContentType_preset_Style">スタイル</system:String>
+    <system:String x:Key="ContentType_pattern">パターン</system:String>
+    <system:String x:Key="ContentType_sim">シム</system:String>
+    <system:String x:Key="ContentType_sim_Pet">ペット</system:String>
+    <system:String x:Key="ContentType_household">世帯</system:String>
+    <system:String x:Key="ContentType_lot">区画</system:String>
+    <system:String x:Key="ContentType_world">ワールド</system:String>
+    <system:String x:Key="ContentType_dynamicchallenge">Dynamic Challenge</system:String>
+    <system:String x:Key="ContentType_coatset">コートセット</system:String>
+    <system:String x:Key="ContentType_haircolorinfo">ヘアカラーのインフォ</system:String>
+    <system:String x:Key="ContentType_haircolorinfo_HairColor">ヘアカラー</system:String>
+    <system:String x:Key="ContentType_ERROR">エラー</system:String>
+
+    <system:String x:Key="Gender_Male">男性</system:String>
+    <system:String x:Key="Gender_Female">女性</system:String>
+    <system:String x:Key="Species_Sim">シム</system:String>
+    <system:String x:Key="Species_Horse">馬</system:String>
+    <system:String x:Key="Species_Cat">猫</system:String>
+    <system:String x:Key="Species_Largedog">大きな犬</system:String>
+    <system:String x:Key="Species_Smalldog">小さな犬</system:String>
+    <system:String x:Key="Age_Baby">赤ちゃん</system:String>
+    <system:String x:Key="Age_Toddler">幼児</system:String>
+    <system:String x:Key="Age_Child">子供</system:String>
+    <system:String x:Key="Age_Teen">十代</system:String>
+    <system:String x:Key="Age_Youngadult">若年</system:String>
+    <system:String x:Key="Age_Adult">成人</system:String>
+    <system:String x:Key="Age_Elder">老齢</system:String>
+
+    <system:String x:Key="Display">ディスプレイ</system:String>
+    <system:String x:Key="Sort">ソート</system:String>
+    <system:String x:Key="Filter">フィルター</system:String>
+    <system:String x:Key="Ascending">ʌ</system:String>
+    <system:String x:Key="Descending">v</system:String>
+
+    <system:String x:Key="Delete">削除</system:String>
+    <system:String x:Key="Tooltip_CannotDelete">ロード中…</system:String>
+    <system:String x:Key="Open_Folder">フォルダを開く</system:String>
+
+    <system:String x:Key="Pending">…</system:String>
+    <system:String x:Key="None">無い</system:String>
+    <system:String x:Key="Present">在る</system:String>
+    <system:String x:Key="Mixed">混合</system:String>
+    <system:String x:Key="_">-</system:String>
+    <system:String x:Key="Unknown">？？？</system:String>
+    <system:String x:Key="ERROR">エラー</system:String>
+    <system:String x:Key="PaidContent_True">はい</system:String>
+    <system:String x:Key="PaidContent_False">いいえ</system:String>
+
+    <system:String x:Key="Info">インフォ</system:String>
+
+    <system:String x:Key="Settings">設定</system:String>
+    <system:String x:Key="Language">言語</system:String>
+    <system:String x:Key="Version">ゲームのバージョン:</system:String>
+    <system:String x:Key="Version_Tooltip">バージョン</system:String>
+
+    <system:String x:Key="Sims_3_User_Files_Directory">ザ・シムズ３ - 個人的なフォルダ</system:String>
+    <system:String x:Key="Edit">エディット</system:String>
+
+    <system:String x:Key="Lngg_English">英語</system:String>
+    <system:String x:Key="Lngg_French">フランス語</system:String>
+    <system:String x:Key="Lngg_SpanishSpain">スペイン語 (スペイン)</system:String>
+    <system:String x:Key="Lngg_Japanese">日本語</system:String>
+    <system:String x:Key="Lngg_Italian">イタリア語</system:String>
+    <system:String x:Key="Lngg_Korean">韓国語</system:String>
+    <system:String x:Key="Lngg_German">ドイツ語</system:String>
+    <system:String x:Key="Lngg_ChineseTaiwan">中国語 (台湾)</system:String>
+    <system:String x:Key="Lngg_ChineseChina">中国語 (中国)</system:String>
+    <system:String x:Key="Lngg_Czech">チェコ語</system:String>
+    <system:String x:Key="Lngg_Danish">デンマーク語</system:String>
+    <system:String x:Key="Lngg_Dutch">オランダ語</system:String>
+    <system:String x:Key="Lngg_Finnish">フィンランド語</system:String>
+    <system:String x:Key="Lngg_Greek">ギリシア語</system:String>
+    <system:String x:Key="Lngg_Hungarian">ハンガリー語</system:String>
+    <system:String x:Key="Lngg_Norwegian">ノルウェー語</system:String>
+    <system:String x:Key="Lngg_Polish">ポーランド語</system:String>
+    <system:String x:Key="Lngg_PortuguesePortugal">ポルトガル語 (ポルトガル)</system:String>
+    <system:String x:Key="Lngg_Russian">ロシア語</system:String>
+    <system:String x:Key="Lngg_Swedish">スウェーデン語</system:String>
+    <system:String x:Key="Lngg_Thai">タイ語</system:String>
+    <system:String x:Key="Lngg_SpanishMexico">スペイン語 (メキシコ)</system:String>
+    <system:String x:Key="Lngg_PortugueseBrazil">ポルトガル語 (ブラジル)</system:String>
+
+    <system:String x:Key="Byte_Abbreviation">B</system:String>
+    <system:String x:Key="Kibibyte_Abbreviation">KiB</system:String>
+    <system:String x:Key="Mebibyte_Abbreviation">MiB</system:String>
+    <system:String x:Key="Gibibyte_Abbreviation">GiB</system:String>
+</ResourceDictionary>

@@ -6,21 +6,21 @@
     <system:String x:Key="No_it_is">Non, c'est...</system:String>
     <system:String x:Key="Exit">Quitter</system:String>
     <system:String x:Key="Initial_Setup">Configuration initiale</system:String>
-    <system:String x:Key="Is_this_your_Sims_3_User_Files_Directory">Est-ce que celui-ci est votre répertoire de données utilisateur pour Sims 3?</system:String>
-    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">(Le répertoire où toutes vos données personnelles pour Sims 3 sont situées.)</system:String>
+    <system:String x:Key="Is_this_your_Sims_3_User_Files_Directory">Est-ce que celui-ci est votre répertoire de données utilisateur pour Sims 3 ?</system:String>
+    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">(Le dossier où toutes vos données personnelles pour Sims 3 sont situées.)</system:String>
 
     <system:String x:Key="OK">OK</system:String>
     <system:String x:Key="Yes">Oui</system:String>
     <system:String x:Key="No">Non</system:String>
-    <system:String x:Key="Success">Succès</system:String>
+    <system:String x:Key="Success">Réussite</system:String>
     <system:String x:Key="Attention">Attention</system:String>
     <system:String x:Key="Warning">Avertissement</system:String>
     <system:String x:Key="Error">Erreur</system:String>
-    <system:String x:Key="Decrypt_SuccessText">Tous les fichiers sélectionnés ont été déchiffrés avec succès!</system:String>
+    <system:String x:Key="Decrypt_SuccessText">Tous les fichiers sélectionnés ont été déchiffrés avec succès !</system:String>
     <system:String x:Key="CouldNotOpenFolder">Incapable d'ouvrir le dossier.</system:String>
     <system:String x:Key="Deleting_files">Supprimer des fichiers</system:String>
-    <system:String x:Key="DeletingFilesText">Souhaitez-vous vraiment supprimer les fichiers sélectionnés? Vous ne pourrez pas les reprendre!</system:String>
-    <system:String x:Key="Error_Code">Code d'errreur {0}</system:String>
+    <system:String x:Key="DeletingFilesText">Souhaitez-vous vraiment supprimer les fichiers sélectionnés ? Vous ne pourrez pas les reprendre !</system:String>
+    <system:String x:Key="Error_Code">Errreur - Code {0}</system:String>
     <system:String x:Key="ErrorText_0">Erreur inconnue.</system:String>
     <system:String x:Key="ErrorText_1">Incapable d'identifier les données d'utilisateur.</system:String>
     <system:String x:Key="ErrorText_2">Répertoire actuel du programme n'était pas accessible.</system:String>
@@ -45,7 +45,7 @@
     <system:String x:Key="Help">Aide</system:String>
     <system:String x:Key="Downloads">Téléchargements</system:String>
     <system:String x:Key="Downloads_Description">Présente tous les fichiers de Sims 3 dans votre dossier 'Downloads'.</system:String>
-    <system:String x:Key="Processing">Traitement est actif...</system:String>
+    <system:String x:Key="Processing">Traitement en cours...</system:String>
 
     <system:String x:Key="All">Tout</system:String>
     <system:String x:Key="Sims3Packs">Sims3Packs</system:String>
@@ -66,7 +66,7 @@
     <system:String x:Key="Clmn_Select">Pas sélectionné/Sélectionné</system:String>
     <system:String x:Key="Clmn_Filename">Fichier</system:String>
     <system:String x:Key="Clmn_Displaytitle">Titre de package</system:String>
-    <system:String x:Key="Clmn_ResourceName">Nom de ressource</system:String>
+    <system:String x:Key="Clmn_ResourceName">Nom de contenu</system:String>
     <system:String x:Key="Clmn_Item">Objet</system:String>
     <system:String x:Key="Clmn_Type">Type</system:String>
     <system:String x:Key="Clmn_SuperType">Super-type</system:String>
@@ -181,9 +181,9 @@
     <system:String x:Key="Decrypt">Déchiffrer</system:String>
 
     <system:String x:Key="Pending">En cours</system:String>
-    <system:String x:Key="None">Aucune</system:String>
+    <system:String x:Key="None">Aucun</system:String>
     <system:String x:Key="Present">Disponible</system:String>
-    <system:String x:Key="Mixed">Composite</system:String>
+    <system:String x:Key="Mixed">Mélangé</system:String>
     <system:String x:Key="_">-</system:String>
     <system:String x:Key="Unknown">Inconnue</system:String>
     <system:String x:Key="ERROR">ERREUR</system:String>
@@ -210,7 +210,7 @@
     Et un grand merci à la communauté du jeu Les Sims 3 et les autres jeux de la série Les Sims. C'est grace a vous que les jeux ont atteint l'état magnifique actuel.
     </system:String>
     <system:String x:Key="Special_Thanks_Text_Part2">
-        Maintenant, la partie la plus importante: Vous pourriez voir VOTRE nom ici! Assez blagué... si vous faisez un don, même si un petit peu, j'ajouterai votre nom ici à toutes les versions prochaines. Vous pouvez visiter mon site web sur Patreon pour plus d'informations. Le lien est au-dessus, sous 'Coordonnées'.
+        Maintenant, la partie la plus importante: Vous pourriez voir VOTRE nom ici ! Assez blagué... si vous faisez un don, même si un petit peu, j'ajouterai votre nom ici à toutes les versions prochaines. Vous pouvez visiter mon site web sur Patreon pour plus d'informations. Le lien est au-dessus, sous 'Coordonnées'.
     </system:String>
 
     <system:String x:Key="Settings">Paramètres</system:String>
@@ -246,7 +246,7 @@
     <system:String x:Key="Lngg_PortugueseBrazil">Portugais (Brésil)</system:String>
 
     <system:String x:Key="Byte_Abbreviation">o</system:String>
-    <system:String x:Key="Kibibyte_Abbreviation">kio</system:String>
+    <system:String x:Key="Kibibyte_Abbreviation">Kio</system:String>
     <system:String x:Key="Mebibyte_Abbreviation">Mio</system:String>
     <system:String x:Key="Gibibyte_Abbreviation">Gio</system:String>
 </ResourceDictionary>

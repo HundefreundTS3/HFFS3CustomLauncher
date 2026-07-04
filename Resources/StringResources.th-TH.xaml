@@ -1,0 +1,58 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="Yes_proceed">ใช่</system:String>
+    <system:String x:Key="No_it_is">ไฮ้</system:String>
+    <system:String x:Key="Exit">ออก</system:String>
+
+    <system:String x:Key="OK">OK</system:String>
+    <system:String x:Key="Yes">ใช่</system:String>
+    <system:String x:Key="No">ไฮ้</system:String>
+    <system:String x:Key="Error">ข้อผิดพลาด</system:String>
+    <system:String x:Key="Error_Code">ข้อผิดพลาด - Code {0}</system:String>
+
+    <system:String x:Key="Close">ปิด</system:String>
+    <system:String x:Key="Minimize">ย่อ</system:String>
+    <system:String x:Key="Maximize">ขยาย</system:String>
+    <system:String x:Key="Restore">คืนค่าลงล่าง</system:String>
+
+    <system:String x:Key="Sims3Packs">Sims3Packs</system:String>
+    <system:String x:Key="Packages">Packages</system:String>
+
+    <system:String x:Key="ContentType_ERROR">ข้อผิดพลาด</system:String>
+
+    <system:String x:Key="Ascending">ʌ</system:String>
+    <system:String x:Key="Descending">v</system:String>
+
+    <system:String x:Key="ERROR">ข้อผิดพลาด</system:String>
+    <system:String x:Key="PaidContent_True">ใช่</system:String>
+    <system:String x:Key="PaidContent_False">ไฮ้</system:String>
+
+    <system:String x:Key="Settings">การตั้งค่า</system:String>
+    <system:String x:Key="Language">ภาษา</system:String>
+
+    <system:String x:Key="Lngg_English">อังกฤษ</system:String>
+    <system:String x:Key="Lngg_French">ภาษาฝรั่งเศส</system:String>
+    <system:String x:Key="Lngg_SpanishSpain">ภาษาสเปน (สเปน)</system:String>
+    <system:String x:Key="Lngg_Japanese">ภาษาญี่ปุ่น</system:String>
+    <system:String x:Key="Lngg_Italian">ภาษาอิตาลี</system:String>
+    <system:String x:Key="Lngg_Korean">ภาษาเกาหลี</system:String>
+    <system:String x:Key="Lngg_German">ภาษาเยอรมัน</system:String>
+    <system:String x:Key="Lngg_ChineseTaiwan">ภาษาจีน (ไต้หวัน)</system:String>
+    <system:String x:Key="Lngg_ChineseChina">ภาษาจีน (จีน)</system:String>
+    <system:String x:Key="Lngg_Czech">ภาษาเช็ก</system:String>
+    <system:String x:Key="Lngg_Danish">ภาษาเดนมาร์ก</system:String>
+    <system:String x:Key="Lngg_Dutch">ภาษาดัตช์</system:String>
+    <system:String x:Key="Lngg_Finnish">ภาษาฟินนิช</system:String>
+    <system:String x:Key="Lngg_Greek">ภาษากรีก</system:String>
+    <system:String x:Key="Lngg_Hungarian">ภาษาฮังการี</system:String>
+    <system:String x:Key="Lngg_Norwegian">ภาษานอร์เวย์</system:String>
+    <system:String x:Key="Lngg_Polish">ภาษาโปแลนด์</system:String>
+    <system:String x:Key="Lngg_PortuguesePortugal">ภาษาโปรตุเกส (โปรตุเกส)</system:String>
+    <system:String x:Key="Lngg_Russian">ภาษารัสเซีย</system:String>
+    <system:String x:Key="Lngg_Swedish">ภาษาสวีเดน</system:String>
+    <system:String x:Key="Lngg_Thai">ภาษาไทย</system:String>
+    <system:String x:Key="Lngg_SpanishMexico">ภาษาสเปน (เม็กซิโก)</system:String>
+    <system:String x:Key="Lngg_PortugueseBrazil">ภาษาโปรตุเกส (บราซิล)</system:String>
+</ResourceDictionary>

@@ -21,8 +21,68 @@ namespace HFFS3CustomLauncher
                 case LanguageCode.fr_FR:
                     dict.Source = new Uri("..\\Resources\\StringResources.fr-FR.xaml", UriKind.Relative);
                     break;
+                case LanguageCode.es_ES:
+                    dict.Source = new Uri("..\\Resources\\StringResources.es-ES.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.ja_JP:
+                    dict.Source = new Uri("..\\Resources\\StringResources.ja-JP.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.it_IT:
+                    dict.Source = new Uri("..\\Resources\\StringResources.it-IT.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.ko_KR:
+                    dict.Source = new Uri("..\\Resources\\StringResources.ko-KR.xaml", UriKind.Relative);
+                    break;
                 case LanguageCode.de_DE:
                     dict.Source = new Uri("..\\Resources\\StringResources.de-DE.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.zh_TW:
+                    dict.Source = new Uri("..\\Resources\\StringResources.zh-TW.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.zh_CHS:
+                    dict.Source = new Uri("..\\Resources\\StringResources.zh-CHS.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.cs_CZ:
+                    dict.Source = new Uri("..\\Resources\\StringResources.cs-CZ.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.da_DK:
+                    dict.Source = new Uri("..\\Resources\\StringResources.da-DK.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.nl_NL:
+                    dict.Source = new Uri("..\\Resources\\StringResources.nl-NL.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.fi_FI:
+                    dict.Source = new Uri("..\\Resources\\StringResources.fi-FI.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.el_GR:
+                    dict.Source = new Uri("..\\Resources\\StringResources.el-GR.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.hu_HU:
+                    dict.Source = new Uri("..\\Resources\\StringResources.hu-HU.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.no:
+                    dict.Source = new Uri("..\\Resources\\StringResources.no.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.pl_PL:
+                    dict.Source = new Uri("..\\Resources\\StringResources.pl-PL.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.pt_PT:
+                    dict.Source = new Uri("..\\Resources\\StringResources.pt-PT.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.ru_RU:
+                    dict.Source = new Uri("..\\Resources\\StringResources.ru-RU.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.sv_SE:
+                    dict.Source = new Uri("..\\Resources\\StringResources.sv-SE.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.th_TH:
+                    dict.Source = new Uri("..\\Resources\\StringResources.th-TH.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.es_MX:
+                    dict.Source = new Uri("..\\Resources\\StringResources.es-MX.xaml", UriKind.Relative);
+                    break;
+                case LanguageCode.pt_BR:
+                    dict.Source = new Uri("..\\Resources\\StringResources.pt-BR.xaml", UriKind.Relative);
                     break;
                 default:
                     dict = null;

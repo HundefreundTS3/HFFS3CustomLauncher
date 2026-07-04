@@ -84,6 +84,22 @@ namespace HFFS3CustomLauncher
 
         private TS3_Package SamplePackage { get; set; }
 
+        public override string ResourceName
+        {
+            get
+            {
+                if (!string.IsNullOrEmpty(Displaytitle))
+                {
+                    return Displaytitle + ".Sims3Pack";
+                }
+                else if (!string.IsNullOrEmpty(SamplePackage.Displaytitle))
+                {
+                    return SamplePackage.Displaytitle + ".Sims3Pack";
+                }
+                return "";
+            }
+        }
+
         public override bool IsSelected
         {
             get

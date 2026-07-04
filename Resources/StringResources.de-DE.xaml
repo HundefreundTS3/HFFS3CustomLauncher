@@ -7,7 +7,7 @@
     <system:String x:Key="Exit">Beenden</system:String>
     <system:String x:Key="Initial_Setup">Initiales Setup</system:String>
     <system:String x:Key="Is_this_your_Sims_3_User_Files_Directory">Ist dies dein Sims 3-Nutzerdatenverzeichnis?</system:String>
-    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">(Das Verzeichnis, in dem sich all deine persönlichen Sims 3-Daten befinden.)</system:String>
+    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">(Der Ordner, in dem sich all deine persönlichen Sims 3-Daten befinden.)</system:String>
 
     <system:String x:Key="OK">OK</system:String>
     <system:String x:Key="Yes">Ja</system:String>
@@ -20,7 +20,7 @@
     <system:String x:Key="CouldNotOpenFolder">Konnte den Ordner nicht öffnen.</system:String>
     <system:String x:Key="Deleting_files">Dateien löschen</system:String>
     <system:String x:Key="DeletingFilesText">Willst du wirklich die ausgewählten Dateien löschen? Du wirst sie nicht mehr wiederherstellen können!</system:String>
-    <system:String x:Key="Error_Code">Fehlercode {0}</system:String>
+    <system:String x:Key="Error_Code">Fehler - Code {0}</system:String>
     <system:String x:Key="ErrorText_0">Unbekannter Fehler.</system:String>
     <system:String x:Key="ErrorText_1">Konnte Nutzerdaten nicht identifizieren.</system:String>
     <system:String x:Key="ErrorText_2">Konnte nicht auf aktuelles Verzeichnis des Programms zugreifen.</system:String>
@@ -36,11 +36,11 @@
     <system:String x:Key="ErrorText_13">Unzulässige Handlung.</system:String>
     <system:String x:Key="ErrorText_15">Keine Dateien ausgewählt.</system:String>
 
-    <system:String x:Key="The_Sims_3_Custom_Launcher_by_Hundefreund">Die Sims 3 Custom-Launcher von Hundefreund</system:String>
+    <system:String x:Key="The_Sims_3_Custom_Launcher_by_Hundefreund">Die Sims 3-Custom-Launcher von Hundefreund</system:String>
     <system:String x:Key="Close">Schließen</system:String>
     <system:String x:Key="Minimize">Minimieren</system:String>
     <system:String x:Key="Maximize">Maximieren</system:String>
-    <system:String x:Key="Restore">Wiederherstellen</system:String>
+    <system:String x:Key="Restore">Verkleinern</system:String>
 
     <system:String x:Key="Help">Hilfe</system:String>
     <system:String x:Key="Downloads">Downloads</system:String>
@@ -66,7 +66,7 @@
     <system:String x:Key="Clmn_Select">Ungewählt/Ausgewählt</system:String>
     <system:String x:Key="Clmn_Filename">Datei</system:String>
     <system:String x:Key="Clmn_Displaytitle">Pakettitel</system:String>
-    <system:String x:Key="Clmn_ResourceName">Ressourcenname</system:String>
+    <system:String x:Key="Clmn_ResourceName">Inhaltsname</system:String>
     <system:String x:Key="Clmn_Item">Objekt</system:String>
     <system:String x:Key="Clmn_Type">Typ</system:String>
     <system:String x:Key="Clmn_SuperType">Obertyp</system:String>
@@ -238,7 +238,7 @@
     <system:String x:Key="Lngg_Hungarian">Ungarisch</system:String>
     <system:String x:Key="Lngg_Norwegian">Norwegisch</system:String>
     <system:String x:Key="Lngg_Polish">Polnisch</system:String>
-    <system:String x:Key="Lngg_PortuguesePortugal">(Europäisch) Portugiesisch</system:String>
+    <system:String x:Key="Lngg_PortuguesePortugal">Portugiesisch (Portugal)</system:String>
     <system:String x:Key="Lngg_Russian">Russisch</system:String>
     <system:String x:Key="Lngg_Swedish">Schwedisch</system:String>
     <system:String x:Key="Lngg_Thai">Thai</system:String>
@@ -246,7 +246,7 @@
     <system:String x:Key="Lngg_PortugueseBrazil">Portugiesisch (Brasilien)</system:String>
 
     <system:String x:Key="Byte_Abbreviation">B</system:String>
-    <system:String x:Key="Kibibyte_Abbreviation">kiB</system:String>
+    <system:String x:Key="Kibibyte_Abbreviation">KiB</system:String>
     <system:String x:Key="Mebibyte_Abbreviation">MiB</system:String>
     <system:String x:Key="Gibibyte_Abbreviation">GiB</system:String>
 </ResourceDictionary>

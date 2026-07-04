@@ -1832,8 +1832,8 @@
                         </TabItem.Style>
                         <TabItem.Header>
                             <StackPanel>
-                                <Label x:Name="label_Version" Content="{DynamicResource Version}" ToolTip="{DynamicResource Version_Tooltip}" HorizontalAlignment="Center" Margin="0,0,0,0" Width="170" HorizontalContentAlignment="Center" Foreground="{StaticResource CustomForegroundDarkBlue_Colour}" FontWeight="DemiBold" FontSize="18" Height="30" VerticalAlignment="Bottom" />
-                                <Label x:Name="label_Versionnumber" Content="0.1.1.0" HorizontalAlignment="Center" Margin="0,-10,0,-10" Width="170" HorizontalContentAlignment="Center" Foreground="{StaticResource CustomForegroundDarkBlue_Colour}" FontWeight="DemiBold" FontSize="18" Height="30" VerticalAlignment="Bottom" IsHitTestVisible="False" />
+                                <Label x:Name="label_Version" Content="{DynamicResource Version}" ToolTip="{DynamicResource Version_Tooltip}" HorizontalAlignment="Center" Margin="0,18,0,0" Width="180" HorizontalContentAlignment="Center" Foreground="{StaticResource CustomForegroundDarkBlue_Colour}" FontWeight="DemiBold" FontSize="13" Height="28" VerticalAlignment="Bottom" />
+                                <Label x:Name="label_Versionnumber" Content="0.1.1.1" HorizontalAlignment="Center" Margin="0,-13,0,0" Width="180" HorizontalContentAlignment="Center" Foreground="{StaticResource CustomForegroundDarkBlue_Colour}" FontWeight="DemiBold" FontSize="13" Height="28" VerticalAlignment="Bottom" IsHitTestVisible="False" />
                             </StackPanel>
                         </TabItem.Header>
                     </TabItem>

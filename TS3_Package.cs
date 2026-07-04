@@ -42,14 +42,15 @@ namespace HFFS3CustomLauncher
         {
             get
             {
-                if (HasParent)
+                if (HasParent && !string.IsNullOrEmpty(Filename))
                 {
                     return Filename;
                 }
-                else
+                else if (!string.IsNullOrEmpty(PackageId))
                 {
-                    return "";
+                    return PackageId + ".package";
                 }
+                return "";
             }
         }
 

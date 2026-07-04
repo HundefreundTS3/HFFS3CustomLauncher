@@ -242,6 +242,26 @@ namespace HFFS3CustomLauncher
             Languages.Add(DefaultLang);
             Languages.Add(new LanguageData(LanguageCode.de_DE, "Lngg_German"));
             Languages.Add(new LanguageData(LanguageCode.fr_FR, "Lngg_French"));
+            Languages.Add(new LanguageData(LanguageCode.cs_CZ, "Lngg_Czech", 50));
+            Languages.Add(new LanguageData(LanguageCode.da_DK, "Lngg_Danish", 50));
+            Languages.Add(new LanguageData(LanguageCode.el_GR, "Lngg_Greek", 50));
+            Languages.Add(new LanguageData(LanguageCode.es_ES, "Lngg_SpanishSpain", 50));
+            Languages.Add(new LanguageData(LanguageCode.es_MX, "Lngg_SpanishMexico", 50));
+            Languages.Add(new LanguageData(LanguageCode.fi_FI, "Lngg_Finnish", 50));
+            Languages.Add(new LanguageData(LanguageCode.hu_HU, "Lngg_Hungarian", 50));
+            Languages.Add(new LanguageData(LanguageCode.it_IT, "Lngg_Italian", 50));
+            Languages.Add(new LanguageData(LanguageCode.ja_JP, "Lngg_Japanese", 50));
+            Languages.Add(new LanguageData(LanguageCode.ko_KR, "Lngg_Korean", 50));
+            Languages.Add(new LanguageData(LanguageCode.nl_NL, "Lngg_Dutch", 50));
+            Languages.Add(new LanguageData(LanguageCode.no, "Lngg_Norwegian", 50));
+            Languages.Add(new LanguageData(LanguageCode.pl_PL, "Lngg_Polish", 50));
+            Languages.Add(new LanguageData(LanguageCode.pt_BR, "Lngg_PortugueseBrazil", 50));
+            Languages.Add(new LanguageData(LanguageCode.pt_PT, "Lngg_PortuguesePortugal", 50));
+            Languages.Add(new LanguageData(LanguageCode.ru_RU, "Lngg_Russian", 50));
+            Languages.Add(new LanguageData(LanguageCode.sv_SE, "Lngg_Swedish", 50));
+            Languages.Add(new LanguageData(LanguageCode.zh_TW, "Lngg_ChineseTaiwan", 50));
+            Languages.Add(new LanguageData(LanguageCode.th_TH, "Lngg_Thai", 5));
+            Languages.Add(new LanguageData(LanguageCode.zh_CHS, "Lngg_ChineseChina", 5));
         }
 
         public void ClearStoredDirectoriesFile()
@@ -350,7 +370,14 @@ namespace HFFS3CustomLauncher
         {
             DownloadsTool.UpdateLanguage();
 
-            Comparison<LanguageData> comp = new Comparison<LanguageData>((x, y) => x.Name.CompareTo(y.Name));
+            Comparison<LanguageData> comp = new Comparison<LanguageData>((x, y) =>
+            {
+                if (x.CompletionState != y.CompletionState)
+                {
+                    return -x.CompletionState.CompareTo(y.CompletionState);
+                }
+                return x.Name.CompareTo(y.Name);
+            });
             DataStore.InsertionSort(Languages, comp);
 
             LanguageCode currLangCode = DS.LanguageCode;

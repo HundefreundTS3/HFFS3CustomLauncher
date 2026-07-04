@@ -68,7 +68,7 @@ namespace HFFS3CustomLauncher
                                 sims3FolderName = "Die Sims 3"; // default cultureCountry: DE
                                 break;
                             case "ja":
-                                sims3FolderName = "ザ・シムズ3"; // default cultureCountry: JP
+                                sims3FolderName = "ザ・シムズ３"; // default cultureCountry: JP
                                 break;
                             case "ko":
                                 sims3FolderName = "심즈 3"; // default cultureCountry: KR
@@ -104,7 +104,7 @@ namespace HFFS3CustomLauncher
                                 {
                                     string folderName = eaDirFolder.Name;
                                     string checkValue = sWhitespace.Replace(eaDirFolder.Name, "");
-                                    if (checkValue.EndsWith("Sims3") || checkValue.EndsWith("模擬市民3") || checkValue.EndsWith("模拟人生3") || checkValue.EndsWith("シムズ3") || checkValue.EndsWith("심즈3") || checkValue.EndsWith("เดอะซิมส์3"))
+                                    if (checkValue.EndsWith("Sims3") || checkValue.EndsWith("模擬市民3") || checkValue.EndsWith("模拟人生3") || checkValue.EndsWith("シムズ３") || checkValue.EndsWith("심즈3") || checkValue.EndsWith("เดอะซิมส์3"))
                                     {
                                         sims3FolderName = folderName;
                                         directoryToUse = sims3FolderLocation + sims3FolderName;

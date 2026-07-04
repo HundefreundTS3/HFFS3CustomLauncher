@@ -33,6 +33,13 @@ namespace HFFS3CustomLauncher
             Key = key;
         }
 
+        internal LanguageData(LanguageCode code, string key, byte completionState)
+        {
+            Code = code;
+            Key = key;
+            CompletionState = completionState;
+        }
+
         internal void UpdateName()
         {
             OnPropertyChanged("Name");
@@ -44,8 +51,9 @@ namespace HFFS3CustomLauncher
         {
             get
             {
-                return DS.GetDynamicResource(Key);
+                return (CompletionState < 100 ? "(" + CompletionState.ToString() + "%) " : "") + DS.GetDynamicResource(Key);
             }
         }
+        public byte CompletionState { get; private set; } = 100;
     }
 }

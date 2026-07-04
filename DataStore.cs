@@ -24,6 +24,7 @@ namespace HFFS3CustomLauncher
         el_GR,
         hu_HU,
         no,
+        no_NO = no,
         pl_PL,
         pt_PT,
         ru_RU,
@@ -53,7 +54,7 @@ namespace HFFS3CustomLauncher
                             return LanguageCode.es_ES;
                         }
                         return LanguageCode.es_MX;
-                    case "jp":
+                    case "ja":
                         return LanguageCode.ja_JP;
                     case "it":
                         return LanguageCode.it_IT;
@@ -208,11 +209,12 @@ namespace HFFS3CustomLauncher
         {
             try
             {
-                if (CurrLangDict != null)
+                string dynamicRes = CurrLangDict?[key] as string ?? null;
+                if (string.IsNullOrEmpty(dynamicRes))
                 {
-                    return CurrLangDict[key] as string ?? "";
+                    dynamicRes = DefaultLangDict[key] as string ?? "";
                 }
-                return DefaultLangDict[key] as string ?? "";
+                return dynamicRes;
             }
             catch (Exception)
             {

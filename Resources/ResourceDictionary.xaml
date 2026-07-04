@@ -1012,7 +1012,7 @@
         packagetitle
     </system:String>
     <system:String x:Key="Clmn_ResourceName_Savename">
-        resourcename
+        contentname
     </system:String>
     <system:String x:Key="Clmn_Item_Savename">
         item
