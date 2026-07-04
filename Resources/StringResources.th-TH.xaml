@@ -5,6 +5,8 @@
     <system:String x:Key="Yes_proceed">ใช่</system:String>
     <system:String x:Key="No_it_is">ไฮ้</system:String>
     <system:String x:Key="Exit">ออก</system:String>
+    <system:String x:Key="Is_this_your_Sims_3_User_Files_Directory">เดอะซิมส์ 3 - โฟลเดอร์ส่วนตัว:</system:String>
+    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">&#160;</system:String>
 
     <system:String x:Key="OK">OK</system:String>
     <system:String x:Key="Yes">ใช่</system:String>
@@ -31,6 +33,9 @@
 
     <system:String x:Key="Settings">การตั้งค่า</system:String>
     <system:String x:Key="Language">ภาษา</system:String>
+
+    <system:String x:Key="Sims_3_User_Files_Directory">เดอะซิมส์ 3 - โฟลเดอร์ส่วนตัว</system:String>
+    <system:String x:Key="Edit">แปลง</system:String>
 
     <system:String x:Key="Lngg_English">อังกฤษ</system:String>
     <system:String x:Key="Lngg_French">ภาษาฝรั่งเศส</system:String>
