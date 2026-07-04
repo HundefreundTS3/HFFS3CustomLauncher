@@ -6,7 +6,7 @@
     <system:String x:Key="No_it_is">否</system:String>
     <system:String x:Key="Exit">退出</system:String>
     <system:String x:Key="Is_this_your_Sims_3_User_Files_Directory">模拟人生3 - 私人的文件夹:</system:String>
-    <system:String x:Key="The_folder_where_all_your_personal_Sims_3_data_is_stored">&#160;</system:String>
+    <system:String x:Key="The_directory_where_all_your_personal_Sims_3_data_is_stored">&#160;</system:String>
 
     <system:String x:Key="OK">OK</system:String>
     <system:String x:Key="Yes">是</system:String>
