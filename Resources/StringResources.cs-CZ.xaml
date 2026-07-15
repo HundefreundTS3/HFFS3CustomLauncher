@@ -165,8 +165,8 @@
     
     <system:String x:Key="Settings">Nastavení</system:String>
     <system:String x:Key="Language">Jazyk</system:String>
-    <system:String x:Key="Version">Verze nainstalované hry:</system:String>
-    <system:String x:Key="Version_Tooltip">Verze nainstalované hry</system:String>
+    <system:String x:Key="Version">Verze programu:</system:String>
+    <system:String x:Key="Version_Tooltip">Verze programu</system:String>
 
     <system:String x:Key="Sims_3_User_Files_Directory">The Sims 3 - Osobní složka</system:String>
     <system:String x:Key="Edit">Měnit</system:String>

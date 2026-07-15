@@ -165,8 +165,8 @@
 
     <system:String x:Key="Settings">Ajustes</system:String>
     <system:String x:Key="Language">Idioma</system:String>
-    <system:String x:Key="Version">Versión del juego instalada:</system:String>
-    <system:String x:Key="Version_Tooltip">Versión del juego instalada</system:String>
+    <system:String x:Key="Version">Versión del programa:</system:String>
+    <system:String x:Key="Version_Tooltip">Versión del programa</system:String>
 
     <system:String x:Key="Sims_3_User_Files_Directory">Los Sims 3 - Carpeta personal</system:String>
     <system:String x:Key="Edit">Cambiar</system:String>

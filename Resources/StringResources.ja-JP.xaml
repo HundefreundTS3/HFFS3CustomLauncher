@@ -165,7 +165,7 @@
 
     <system:String x:Key="Settings">設定</system:String>
     <system:String x:Key="Language">言語</system:String>
-    <system:String x:Key="Version">ゲームのバージョン:</system:String>
+    <system:String x:Key="Version">プログラムのバージョン:</system:String>
     <system:String x:Key="Version_Tooltip">バージョン</system:String>
 
     <system:String x:Key="Sims_3_User_Files_Directory">ザ・シムズ３ - 個人的なフォルダ</system:String>

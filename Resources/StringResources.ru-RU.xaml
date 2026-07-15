@@ -165,8 +165,8 @@
 
     <system:String x:Key="Settings">Настройки</system:String>
     <system:String x:Key="Language">Язык</system:String>
-    <system:String x:Key="Version">Версия игры:</system:String>
-    <system:String x:Key="Version_Tooltip">Версия игры:</system:String>
+    <system:String x:Key="Version">Версия программы:</system:String>
+    <system:String x:Key="Version_Tooltip">Версия программы:</system:String>
 
     <system:String x:Key="Sims_3_User_Files_Directory">The Sims 3 - Личная папка</system:String>
     <system:String x:Key="Edit">Изменять</system:String>

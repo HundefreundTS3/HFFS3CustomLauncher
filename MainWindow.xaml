@@ -99,7 +99,7 @@
                                 </Style>
                             </Button.Style>
                         </Button>
-                        <Label Content="{DynamicResource The_Sims_3_Custom_Launcher_by_Hundefreund}" FontSize="15" FontWeight="DemiBold" HorizontalAlignment="Center" Foreground="White" />
+                        <Label Content="{DynamicResource The_Sims_3_Custom_Launcher_by_Hundefreund}" FontSize="15" FontWeight="DemiBold" HorizontalAlignment="Center" Foreground="White" Height="30" />
                         <Button x:Name="button_Minimize" Content="__" ToolTip="{DynamicResource Minimize}" Click="OnMinimizeWindow">
                             <Button.Style>
                                 <Style TargetType="{x:Type Button}" BasedOn="{StaticResource CustomButtonTopPanel}">
